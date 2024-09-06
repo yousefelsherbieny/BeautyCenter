@@ -1,0 +1,51 @@
+.prd img {
+  height: 400px;
+  width: 550px;
+}
+.prd p {
+  font-weight: bold;
+}
+.prd {
+  width: 300px;
+  height: 550px;
+}
+.prd-grid {
+  margin: 20px;
+}
+.container-fluid {
+  height: 600ox;
+  background-color: azure;
+  border-radius: 5px;
+}
+.row ul li {
+  list-style: none;
+}
+.fa-regular {
+  margin-right: 20px;
+}
+.fa-solid {
+  margin-right: 20px;
+}
+.question {
+  background-color: darkcyan;
+  color: rgb(244, 235, 224);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+  width: 450px;
+  font-size: large;
+}
+.testimonial {
+  background-color: azure;
+  margin: 30px;
+  width: 800px;
+  img {
+    border-radius: 10px;
+  }
+  p {
+    font-size: large;
+  }
+}
+.col-lg-7 {
+  margin-top: 110px;
+}
