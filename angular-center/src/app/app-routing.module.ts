@@ -4,6 +4,7 @@ import { LayoutComponent } from './core/theme/layout/layout.component';
 import { AboutComponent } from './core/theme/about/about.component';
 import { ContactUsComponent } from './core/theme/contact-us/contact-us.component';
 import { BlogComponent } from './core/theme/blog/blog.component';
+import { BlogDetailComponent } from './core/theme/blog-detail/blog-detail.component';
 
 const routes: Routes = [
   {
@@ -28,6 +29,8 @@ const routes: Routes = [
   { path: 'About', component: AboutComponent },
   { path: 'contact-us', component: ContactUsComponent },
   { path: 'blog', component: BlogComponent },
+  { path: 'procedure/:id', component: BlogDetailComponent },
+
 ];
 
 @NgModule({

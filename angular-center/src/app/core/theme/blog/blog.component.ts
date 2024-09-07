@@ -1,10 +1,16 @@
 import { Component } from '@angular/core';
+import { procedures } from './procedures';
+import { Procedure } from './procedure.model';
 
 @Component({
   selector: 'app-blog',
   templateUrl: './blog.component.html',
-  styleUrl: './blog.component.scss'
+  styleUrls: ['./blog.component.scss']
 })
 export class BlogComponent {
+  procedures: Procedure[] = procedures; // Use the imported procedures array
 
+  constructor() {
+    // Any additional initialization can go here
+  }
 }
