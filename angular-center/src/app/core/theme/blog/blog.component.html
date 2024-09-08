@@ -4,13 +4,16 @@
 
 <div class="container">
   <div class="text-center mb-2 mb-md-3 mb-lg-4">
-    <h1 class="theme-color">Blogs & News</h1>
+    <h1 class="theme-color">Services</h1>
     <div class="h-decor"></div>
   </div>
 
   <!-- Add a row to the container to ensure proper grid layout -->
   <div class="row">
-    <div class="gallery-item col-lg-4 col-md-6 col-sm-12 mb-4" *ngFor="let procedure of procedures">
+    <div
+      class="gallery-item col-lg-4 col-md-6 col-sm-12 mb-4"
+      *ngFor="let procedure of procedures"
+    >
       <div class="doctor-box text-center">
         <div class="doctor-box-photo">
           <a [routerLink]="['/procedure', procedure.id]">
@@ -18,7 +21,9 @@
           </a>
         </div>
         <h5 class="doctor-box-name">
-          <a [routerLink]="['/procedure', procedure.id]">{{ procedure.name }}</a>
+          <a [routerLink]="['/procedure', procedure.id]">{{
+            procedure.name
+          }}</a>
         </h5>
         <div class="doctor-box-text">
           <p>{{ procedure.shortDescription }}</p>

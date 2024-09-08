@@ -30,9 +30,9 @@ const routes: Routes = [
   },
   { path: 'About', component: AboutComponent },
   { path: 'contact-us', component: ContactUsComponent },
-  { path: 'blog', component: BlogComponent },
+  { path: 'blog', component: ServicePageComponent },
   { path: 'procedure/:id', component: BlogDetailComponent },
-  { path: 'service-page', component: ServicePageComponent },
+  { path: 'service-page', component: BlogComponent },
   { path: 'services/:name', component: ServicePageDetailComponent }, // Route for service details
 ];
 
