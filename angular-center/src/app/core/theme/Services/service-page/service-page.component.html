@@ -1,0 +1,56 @@
+<div class="header">
+    <app-header></app-header>
+  </div>
+  
+  <div class="page-content">
+    <div class="section mt-0">
+      <div class="breadcrumbs-wrap">
+        <div class="container">
+          <div class="breadcrumbs">
+            <a href="index-2.html">Home</a>
+            <span>Services</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section page-content-first">
+      <div class="container">
+        <div class="text-center mb-2 mb-md-3 mb-lg-4">
+          <div class="h-sub theme-color">What We Offer</div>
+          <h1>Our Services</h1>
+          <div class="h-decor"></div>
+          <div class="text-center max-670 mt-3 mx-md-auto">
+            <p>
+              Our programs customize the weight loss plan to the patient’s
+              needs. All plans are medically supervised and under physician’s
+              care
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row col-equalH">
+            <div class="col-md-6 col-lg-4" *ngFor="let service of services">
+              <div class="service-card">
+                <div class="service-card-photo">
+                  <a [routerLink]="service.link"><img src="{{service.image}}" class="img-fluid" alt="" /></a>
+                </div>
+                <h5 class="service-card-name">
+                  <a [routerLink]="service.link">{{ service.name }}</a>
+                </h5>
+                <div class="h-decor"></div>
+                <p>{{ service.description }}</p>
+                <ul class="marker-list-md-line">
+                  <li *ngFor="let benefit of service.benefits">{{ benefit }}</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+      </div>
+      
+    </div>
+  </div>
+
+  <app-footer></app-footer>
+

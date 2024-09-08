@@ -5,6 +5,8 @@ import { AboutComponent } from './core/theme/about/about.component';
 import { ContactUsComponent } from './core/theme/contact-us/contact-us.component';
 import { BlogComponent } from './core/theme/blog/blog.component';
 import { BlogDetailComponent } from './core/theme/blog-detail/blog-detail.component';
+import { ServicePageDetailComponent } from './core/theme/Services/service-page-detail/service-page-detail.component';
+import { ServicePageComponent } from './core/theme/Services/service-page/service-page.component';
 
 const routes: Routes = [
   {
@@ -30,7 +32,8 @@ const routes: Routes = [
   { path: 'contact-us', component: ContactUsComponent },
   { path: 'blog', component: BlogComponent },
   { path: 'procedure/:id', component: BlogDetailComponent },
-
+  { path: 'service-page', component: ServicePageComponent },
+  { path: 'services/:name', component: ServicePageDetailComponent }, // Route for service details
 ];
 
 @NgModule({

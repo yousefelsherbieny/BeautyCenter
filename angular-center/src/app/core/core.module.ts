@@ -11,6 +11,8 @@ import { BlogComponent } from './theme/blog/blog.component';
 import { AboutComponent } from './theme/about/about.component';
 import { ContactUsComponent } from './theme/contact-us/contact-us.component';
 import { BlogDetailComponent } from './theme/blog-detail/blog-detail.component';
+import { ServicePageComponent } from './theme/Services/service-page/service-page.component';
+import { ServicePageDetailComponent } from './theme/Services/service-page-detail/service-page-detail.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,8 @@ import { BlogDetailComponent } from './theme/blog-detail/blog-detail.component';
     AboutComponent,
     BlogDetailComponent,
     ContactUsComponent,
+    ServicePageComponent,
+    ServicePageDetailComponent,
   ],
   imports: [
     CommonModule,  // For common Angular directives and pipes
