@@ -7,8 +7,8 @@
     <div class="breadcrumbs-wrap">
       <div class="container">
         <div class="breadcrumbs">
-          <a href="index-2.html">Home</a>
-          <span>Blogs</span>
+          <a href="index-2.html">{{ 'BREADCRUMBS.HOME' | translate }}</a>
+          <span>{{ 'BREADCRUMBS.BLOGS' | translate }}</span>
         </div>
       </div>
     </div>
@@ -16,14 +16,11 @@
   <div class="section page-content-first">
     <div class="container">
       <div class="text-center mb-2 mb-md-3 mb-lg-4">
-        <div class="h-sub theme-color">What We Offer</div>
-        <h1>Our Blogs</h1>
+        <div class="h-sub theme-color">{{ 'BLOGS_SECTION.WHAT_WE_OFFER' | translate }}</div>
+        <h1>{{ 'BLOGS_SECTION.OUR_BLOGS' | translate }}</h1>
         <div class="h-decor"></div>
         <div class="text-center max-670 mt-3 mx-md-auto">
-          <p>
-            Our programs customize the weight loss plan to the patient’s needs.
-            All plans are medically supervised and under physician’s care
-          </p>
+          <p>{{ 'BLOGS_SECTION.DESCRIPTION' | translate }}</p>
         </div>
       </div>
     </div>
@@ -37,10 +34,10 @@
               /></a>
             </div>
             <h5 class="service-card-name">
-              <a [routerLink]="service.link">{{ service.name }}</a>
+              <a [routerLink]="service.link">{{ 'SERVICE_CARD.NAME' | translate:{ name: service.name } }}</a>
             </h5>
             <div class="h-decor"></div>
-            <p>{{ service.description }}</p>
+            <p>{{ 'SERVICE_CARD.DESCRIPTION' | translate:{ description: service.description } }}</p>
             <ul class="marker-list-md-line">
               <li *ngFor="let benefit of service.benefits">{{ benefit }}</li>
             </ul>
