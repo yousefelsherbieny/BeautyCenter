@@ -70,6 +70,9 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "port": 2098
+          },
           "configurations": {
             "production": {
               "buildTarget": "angular-center:build:production"
