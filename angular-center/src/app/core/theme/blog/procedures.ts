@@ -5,31 +5,38 @@ export const procedures = [
     name: 'Facial Fat Injections',
     image: 'assets/images/blog/b4.jpeg',
     shortDescription:
-      'Facial fat injection, also known as facial augmentation with fat grafting...',
+      'Facial fat injection, also known as facial augmentation with fat grafting, is a cosmetic procedure designed to restore volume and rejuvenate the face using the patient’s own fat.',
     descriptions: [
-      'Facial fat injections, also known as fat grafting or fat transfer, is a cosmetic procedure designed to restore volume and rejuvenate the face using the patient’s own fat. It is commonly used to fill in hollow or sunken areas, smooth out wrinkles, and improve the overall contour of the face. This procedure is a popular choice because it uses the patient is own tissue, reducing the risk of allergic reactions or rejection, and provides a natural-looking, long-lasting result.',
+      // Main description
+      'Facial fat injections, also known as fat grafting or fat transfer, is a cosmetic procedure designed to restore volume and rejuvenate the face using the patient’s own fat. It is commonly used to fill in hollow or sunken areas, smooth out wrinkles, and improve the overall contour of the face. This procedure is popular because it uses the patient’s own tissue, reducing the risk of allergic reactions or rejection, and provides a natural-looking, long-lasting result.',
+      
+      // Who is a Good Candidate?
       'Who is a Good Candidate?',
       'Ideal candidates for facial fat injections include individuals who:',
-      '- Have lost facial volume due to aging or weight loss.',
-      '- Desire to smooth out deep wrinkles or folds, such as nasolabial folds (lines running from the nose to the mouth).',
-      '- Want to enhance facial areas like the cheeks, temples, or lips.',
-      '- Prefer a natural filler option using their own fat, rather than synthetic dermal fillers.',
-      '- Have enough fat in other areas of the body to harvest for the procedure.',
+      'Have lost facial volume due to aging or weight loss.',
+      'Desire to smooth out deep wrinkles or folds, such as nasolabial folds (lines running from the nose to the mouth).',
+      'Want to enhance facial areas like the cheeks, temples, or lips.',
+      'Prefer a natural filler option using their own fat, rather than synthetic dermal fillers.',
+      'Have enough fat in other areas of the body to harvest for the procedure.',
+      
+      // Common Treatment Areas
       'Common Treatment Areas:',
-      '- Cheeks: To restore youthful fullness and contour.',
-      '      - Under the Eyes: To treat hollowing or dark circles.',
-      '      - Nasolabial Folds: To smooth out deep creases between the nose and mouth.',
-      '      - Lips: To add volume and define shape.',
-      '      - Jawline and Chin: To create a more defined and balanced facial profile.',
-
-      ' Procedure Steps:',
-      '      Fat Harvesting (Liposuction): The procedure begins with liposuction, where fat is carefully removed from areas of the body where it is in excess, such as the abdomen, thighs, or flanks. The surgeon uses a small cannula (thin tube) to extract the fat through tiny incisions.',
-
-      '      Purification: Once the fat is harvested, it is processed and purified. This involves removing any impurities, excess fluid, and damaged fat cells, leaving behind only the healthiest fat cells for reinjection.',
-      '      Fat Injection: The purified fat is then injected into the targeted areas of the face using fine needles or cannulas. The surgeon carefully layers the fat into multiple levels of the skin to ensure smooth, even results. This meticulous process allows for precise contouring and volume restoration.',
+      'Cheeks: To restore youthful fullness and contour.',
+      'Under the Eyes: To treat hollowing or dark circles.',
+      'Nasolabial Folds: To smooth out deep creases between the nose and mouth.',
+      'Lips: To add volume and define shape.',
+      'Jawline and Chin: To create a more defined and balanced facial profile.',
+      
+      // Procedure Steps
+      'Procedure Steps:',
+      'Fat Harvesting (Liposuction): The procedure begins with liposuction, where fat is carefully removed from areas of the body where it is in excess, such as the abdomen, thighs, or flanks. The surgeon uses a small cannula (thin tube) to extract the fat through tiny incisions.',
+      'Purification: Once the fat is harvested, it is processed and purified. This involves removing impurities, excess fluid, and damaged fat cells, leaving only the healthiest fat cells for reinjection.',
+      'Fat Injection: The purified fat is then injected into the targeted areas of the face using fine needles or cannulas. The surgeon carefully layers the fat into multiple levels of the skin to ensure smooth, even results. This meticulous process allows for precise contouring and volume restoration.',
+      
+      // Benefits of Facial Fat Injections
       'Benefits of Facial Fat Injections:',
-      '      - Natural Look and Feel: Since the fat comes from your own body, the results appear very natural.',
-      '      - Long-lasting Results: While some fat may be reabsorbed by the body over time, the remaining fat provides permanent volume. Additional touch-ups may be needed in some cases.',
+      'Natural Look and Feel: Since the fat comes from your own body, the results appear very natural.',
+      'Long-lasting Results: While some fat may be reabsorbed by the body over time, the remaining fat provides permanent volume. Additional touch-ups may be needed in some cases.'
     ],
   },
   {
