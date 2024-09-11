@@ -1,10 +1,18 @@
 img {
-  border-radius: 100px;
-  width: 200px;
-  height: 200px;
+  border-radius: 50%; /* This will make the image a perfect circle */
+  width: 200px;       /* Fixed width */
+  height: 200px;      /* Fixed height */
+  object-fit: cover;  /* Ensures the image doesn't get distorted */
 }
+
 ul {
   padding-bottom: 20px;
   margin-bottom: 20px;
   font-weight: bold;
+  list-style-type: disc;  /* Adds bullet points */
+  padding-left: 20px;     /* Adds indentation for the bullet points */
+}
+
+li {
+  margin-bottom: 10px;    /* Adds spacing between list items */
 }
