@@ -93,14 +93,7 @@ export const procedures = [
       'Thigh sculpting aims to enhance the shape of the thighs through fat removal and contouring.',
     descriptions: [],
   },
-  {
-    id: 'gynecomastia',
-    name: 'Gynecomastia',
-    image: 'assets/images/blog/b14.jpeg',
-    shortDescription:
-      'Gynecomastia is the condition of enlarged male breasts, often corrected through surgery.',
-    descriptions: [],
-  },
+
   {
     id: 'abdominoplasty-waist-sculpting',
     name: 'Abdominoplasty and Waist Sculpting',
@@ -109,14 +102,7 @@ export const procedures = [
       'Abdominal and waist sculpting is a procedure aimed at refining the shape of the waist and abdominal area.',
     descriptions: [],
   },
-  {
-    id: 'hair-transplant',
-    name: 'Hair Transplant',
-    image: 'assets/images/blog/b15.jpeg',
-    shortDescription:
-      'Hair transplantation is a surgical procedure to treat hair loss or baldness.',
-    descriptions: [],
-  },
+
   {
     id: 'eyelid-lifting',
     name: 'Eyelid Lifting and Lifting',
