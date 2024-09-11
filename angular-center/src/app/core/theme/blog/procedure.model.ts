@@ -3,5 +3,6 @@ export interface Procedure {
   name: string;
   image: string;
   shortDescription: string;
-  descriptions?: string[]; // Make descriptions optional
+  longDescription: string;
+  descriptions?: (string | { title: string; text: string })[]; // Allow both string and object types
 }
