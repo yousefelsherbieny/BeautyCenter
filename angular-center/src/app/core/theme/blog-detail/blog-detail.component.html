@@ -74,13 +74,6 @@
                       >Thigh Lifting</a
                     >
                   </li>
-                </ul>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link">Cosmetic Medicine For Mens</a>
-              <div class="collapse show" id="submenu1">
-                <ul class="flex-column nav">
                   <li class="nav-item">
                     <a
                       class="nav-link"
@@ -91,7 +84,10 @@
                   <li class="nav-item">
                     <a
                       class="nav-link"
-                      [routerLink]="['/procedure', 'abdominoplasty-waist-sculpting']"
+                      [routerLink]="[
+                        '/procedure',
+                        'abdominoplasty-waist-sculpting'
+                      ]"
                       >Abdominoplasty and Waist Sculpting</a
                     >
                   </li>
@@ -138,6 +134,12 @@
                     >
                   </li>
                 </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Cosmetic Medicine For Mens</a>
+              <div class="collapse show" id="submenu1">
+                <ul class="flex-column nav"></ul>
               </div>
             </li>
           </ul>
@@ -245,7 +247,9 @@
 
           <!-- Display message if no descriptions are available -->
           <p
-            *ngIf="!procedure?.descriptions || procedure.descriptions.length === 0"
+            *ngIf="
+              !procedure?.descriptions || procedure.descriptions.length === 0
+            "
           >
             No descriptions available.
           </p>
