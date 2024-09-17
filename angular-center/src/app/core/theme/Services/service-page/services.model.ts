@@ -1,6 +1,9 @@
 export interface Service {
   name: string;
-  description: string;
+  longDescription: string;
+  title: string;
+  subtitle: string;
+  text: string;
   image: string;
   link: string;
 }

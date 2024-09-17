@@ -559,7 +559,6 @@ export const procedures = [
       },
     ],
   },
-
   {
     id: 'fat-injections',
     name: 'Fat Injections',
@@ -717,35 +716,30 @@ export const procedures = [
     name: ' Chin Implant ',
     image: 'assets/images/blog/m4.webp',
     longDescription:
-      'Rhinoplasty is a surgical procedure to alter the shape, size, or proportions of the nose. It can be done for cosmetic reasons or to correct functional issues like breathing problems.',
+      'Chin implants involve the insertion of synthetic material to enhance the shape, size, and appearance of the chin, improving overall facial harmony.',
     shortDescription:
-      'Rhinoplasty is a surgical procedure to alter the shape, size, or proportions of the nose',
+      'Chin implants involve the insertion of synthetic material to enhance the shape',
     descriptions: [
       {
-        title: 'Open Rhinoplasty',
-        text: 'Involves making an incision at the base of the nose, allowing for more comprehensive reshaping. This technique is preferred for significant changes.',
+        title: 'Implants:',
+        text: 'Involves the insertion of a silicone or porous polyethylene implant to enhance the chin’s projection and definition.',
       },
       {
-        title: 'Closed Rhinoplasty',
-        text: 'All incisions are made inside the nostrils, resulting in no visible scars. It is used for minor changes.',
+        title: 'Sliding Genioplasty:',
+        text: 'A more advanced technique where the surgeon cuts and moves the chin bone forward or backward, fixing it in place with plates and screws. It is often used when bone adjustment is needed in addition to volume augmentation.',
       },
       {
-        title: 'Non-Surgical Rhinoplasty',
-        text: 'Involves injecting dermal fillers to temporarily improve the shape of the nose without surgery.',
-      },
-
-      {
-        title: 'Recovery',
-        text: 'Swelling and bruising around the eyes and nose are common for 1–2 weeks., Full recovery can take up to a year, although most swelling subsides within a few months., You may need to wear a nasal splint for the first week after surgery.',
+        title: 'Recovery:',
+        text: 'Recovery time is about 1–2 weeks, with swelling and discomfort common for the first few days.,Patients are advised to eat soft foods and avoid strenuous activities during recovery.',
       },
 
       {
         title: 'Benefits',
-        text: 'Improves facial symmetry and balance ,Enhances breathing function (if done for medical reasons), Boosts confidence with a more harmonious facial appearance',
+        text: 'Enhances facial profile, especially in individuals with a weak chin, Improves facial proportions, Creates a more defined jawline',
       },
       {
         title: 'Risks',
-        text: 'Difficulty breathing through the nose post-surgery, Nosebleeds, Infection or adverse reaction to anesthesia, Permanent numbness in the nose, Need for revision surgery',
+        text: 'Infection or implant shifting, Nerve damage leading to numbness, Implant rejection, Temporary swelling and bruising',
       },
     ],
   },
@@ -754,35 +748,35 @@ export const procedures = [
     name: ' Hair Implant',
     image: 'assets/images/blog/m5.jpg',
     longDescription:
-      'Rhinoplasty is a surgical procedure to alter the shape, size, or proportions of the nose. It can be done for cosmetic reasons or to correct functional issues like breathing problems.',
+      'Hair implants involve transplanting hair follicles from one part of the body (usually the back of the scalp) to areas experiencing thinning or balding. Techniques include follicular unit transplantation (FUT) and follicular unit extraction (FUE).',
     shortDescription:
-      'Rhinoplasty is a surgical procedure to alter the shape, size, or proportions of the nose',
+      'Hair implants involve transplanting hair follicles from one part of the body',
     descriptions: [
       {
-        title: 'Open Rhinoplasty',
-        text: 'Involves making an incision at the base of the nose, allowing for more comprehensive reshaping. This technique is preferred for significant changes.',
+        title: 'Follicular Unit Transplantation (FUT)',
+        text: 'Involves removing a strip of scalp from the back of the head, dissecting it into individual grafts, and transplanting them into the thinning areas.',
       },
       {
-        title: 'Closed Rhinoplasty',
-        text: 'All incisions are made inside the nostrils, resulting in no visible scars. It is used for minor changes.',
+        title: 'Follicular Unit Extraction (FUE)',
+        text: 'Involves removing individual hair follicles from the donor area and implanting them into balding areas. This method leaves minimal scarring and has a shorter recovery time.',
       },
       {
-        title: 'Non-Surgical Rhinoplasty',
-        text: 'Involves injecting dermal fillers to temporarily improve the shape of the nose without surgery.',
+        title: 'Long-Term Considerations',
+        text: 'The results are permanent since the transplanted hair is taken from areas resistant to balding., Full results are typically visible 6–12 months after the procedure.',
       },
 
       {
         title: 'Recovery',
-        text: 'Swelling and bruising around the eyes and nose are common for 1–2 weeks., Full recovery can take up to a year, although most swelling subsides within a few months., You may need to wear a nasal splint for the first week after surgery.',
+        text: 'Recovery takes about 1–2 weeks. The transplanted hair will fall out after 2–3 weeks but will regrow after 3–4 months., Minor swelling and scabbing are common, and it’s recommended to avoid strenuous activities for a few weeks.',
       },
 
       {
         title: 'Benefits',
-        text: 'Improves facial symmetry and balance ,Enhances breathing function (if done for medical reasons), Boosts confidence with a more harmonious facial appearance',
+        text: 'Natural-looking hair growth, Permanent solution for hair loss, Minimal maintenance after healing',
       },
       {
         title: 'Risks',
-        text: 'Difficulty breathing through the nose post-surgery, Nosebleeds, Infection or adverse reaction to anesthesia, Permanent numbness in the nose, Need for revision surgery',
+        text: 'Infection or scarring, Graft rejection or poor hair growth, Temporary numbness, Uneven hair growth',
       },
     ],
   },
@@ -791,35 +785,35 @@ export const procedures = [
     name: ' Ear Surgery',
     image: 'assets/images/blog/m10.png',
     longDescription:
-      'Rhinoplasty is a surgical procedure to alter the shape, size, or proportions of the nose. It can be done for cosmetic reasons or to correct functional issues like breathing problems.',
+      'Otoplasty is a surgical procedure to reshape or reposition the ears, often to correct prominent or asymmetrical ears.',
     shortDescription:
-      'Rhinoplasty is a surgical procedure to alter the shape, size, or proportions of the nose',
+      'Otoplasty is a surgical procedure to reshape or reposition the ears',
     descriptions: [
       {
-        title: 'Open Rhinoplasty',
-        text: 'Involves making an incision at the base of the nose, allowing for more comprehensive reshaping. This technique is preferred for significant changes.',
+        title: 'Pinning Back the Ears',
+        text: 'Involves making an incision behind the ear and using stitches to reshape and position the ears closer to the head.',
       },
       {
-        title: 'Closed Rhinoplasty',
-        text: 'All incisions are made inside the nostrils, resulting in no visible scars. It is used for minor changes.',
+        title: 'Ear Reduction',
+        text: 'This is performed if the ears are too large (macrotia) and involves removing excess cartilage and skin to reduce the size.',
       },
       {
-        title: 'Non-Surgical Rhinoplasty',
-        text: 'Involves injecting dermal fillers to temporarily improve the shape of the nose without surgery.',
+        title: 'Long-Term Considerations',
+        text: 'The results are usually permanent., Minor asymmetry may occur over time, but revision surgeries are rare.',
       },
 
       {
         title: 'Recovery',
-        text: 'Swelling and bruising around the eyes and nose are common for 1–2 weeks., Full recovery can take up to a year, although most swelling subsides within a few months., You may need to wear a nasal splint for the first week after surgery.',
+        text: 'Initial recovery is about 1 week, with bandages worn for support., Pain and swelling are common for the first few days, and patients are advised to avoid sleeping on their sides during recovery.',
       },
 
       {
         title: 'Benefits',
-        text: 'Improves facial symmetry and balance ,Enhances breathing function (if done for medical reasons), Boosts confidence with a more harmonious facial appearance',
+        text: 'Improves ear shape and position, Enhances facial harmony, Boosts confidence, particularly in individuals with protruding ears',
       },
       {
         title: 'Risks',
-        text: 'Difficulty breathing through the nose post-surgery, Nosebleeds, Infection or adverse reaction to anesthesia, Permanent numbness in the nose, Need for revision surgery',
+        text: 'Infection or changes in skin sensation, Scarring, Asymmetry or dissatisfaction with results, Rare risk of overcorrection, leading to "pinned-back" ears',
       },
     ],
   },
@@ -828,35 +822,35 @@ export const procedures = [
     name: ' Thigh Lift',
     image: 'assets/images/blog/m3.jpg',
     longDescription:
-      'Rhinoplasty is a surgical procedure to alter the shape, size, or proportions of the nose. It can be done for cosmetic reasons or to correct functional issues like breathing problems.',
+      'A thigh lift involves removing excess skin and fat from the thighs, often after significant weight loss, to improve leg contour and smoothness.',
     shortDescription:
-      'Rhinoplasty is a surgical procedure to alter the shape, size, or proportions of the nose',
+      'A thigh lift involves removing excess skin and fat from the thighs',
     descriptions: [
       {
-        title: 'Open Rhinoplasty',
-        text: 'Involves making an incision at the base of the nose, allowing for more comprehensive reshaping. This technique is preferred for significant changes.',
+        title: 'Medial Thigh Lift',
+        text: 'Targets the inner thighs by removing excess skin and fat, tightening the area.',
       },
       {
-        title: 'Closed Rhinoplasty',
-        text: 'All incisions are made inside the nostrils, resulting in no visible scars. It is used for minor changes.',
+        title: 'Lateral Thigh Lift',
+        text: 'Focuses on the outer thighs and often extends to the hips.',
       },
       {
-        title: 'Non-Surgical Rhinoplasty',
-        text: 'Involves injecting dermal fillers to temporarily improve the shape of the nose without surgery.',
+        title: 'Long-Term Considerations',
+        text: 'Results are long-lasting, but weight fluctuations can affect the outcome., Scarring can be significant, though it’s often placed in less visible areas.',
       },
 
       {
         title: 'Recovery',
-        text: 'Swelling and bruising around the eyes and nose are common for 1–2 weeks., Full recovery can take up to a year, although most swelling subsides within a few months., You may need to wear a nasal splint for the first week after surgery.',
+        text: 'Recovery takes about 2–4 weeks. Initial swelling, bruising, and discomfort are common., Compression garments are recommended to reduce swelling and promote skin contraction.',
       },
 
       {
         title: 'Benefits',
-        text: 'Improves facial symmetry and balance ,Enhances breathing function (if done for medical reasons), Boosts confidence with a more harmonious facial appearance',
+        text: 'Removes excess skin and fat for a more toned appearance, Improves comfort and movement, Reduces skin irritation caused by chafing',
       },
       {
         title: 'Risks',
-        text: 'Difficulty breathing through the nose post-surgery, Nosebleeds, Infection or adverse reaction to anesthesia, Permanent numbness in the nose, Need for revision surgery',
+        text: 'Scarring along the thigh area, Infection or blood clots,Asymmetry, Temporary numbness or nerve damage',
       },
     ],
   },
@@ -865,35 +859,35 @@ export const procedures = [
     name: ' Buttock Sculpting for Athletic Shape',
     image: 'assets/images/blog/m2.jpg',
     longDescription:
-      'Rhinoplasty is a surgical procedure to alter the shape, size, or proportions of the nose. It can be done for cosmetic reasons or to correct functional issues like breathing problems.',
+      'Buttock sculpting can involve fat transfer (Brazilian butt lift), implants, or both, to improve the shape and size of the buttocks for a more athletic or rounded appearance.',
     shortDescription:
-      'Rhinoplasty is a surgical procedure to alter the shape, size, or proportions of the nose',
+      'Buttock sculpting can involve fat transfer (Brazilian butt lift), implants, or both',
     descriptions: [
       {
-        title: 'Open Rhinoplasty',
-        text: 'Involves making an incision at the base of the nose, allowing for more comprehensive reshaping. This technique is preferred for significant changes.',
+        title: 'Brazilian Butt Lift (BBL)',
+        text: 'Involves liposuction to remove fat from areas like the abdomen or thighs, which is then purified and injected into the buttocks.',
       },
       {
-        title: 'Closed Rhinoplasty',
-        text: 'All incisions are made inside the nostrils, resulting in no visible scars. It is used for minor changes.',
+        title: 'Buttock Implants',
+        text: 'Silicone implants are used to enhance the size and shape of the buttocks for those with little fat to transfer.',
       },
       {
-        title: 'Non-Surgical Rhinoplasty',
-        text: 'Involves injecting dermal fillers to temporarily improve the shape of the nose without surgery.',
+        title: 'Long-Term Considerations',
+        text: 'Results can last for many years with proper care, but weight fluctuations can alter the appearance., In rare cases, fat grafting can lead to fat necrosis or fat migration.',
       },
 
       {
         title: 'Recovery',
-        text: 'Swelling and bruising around the eyes and nose are common for 1–2 weeks., Full recovery can take up to a year, although most swelling subsides within a few months., You may need to wear a nasal splint for the first week after surgery.',
+        text: 'Recovery can take up to 4–6 weeks. Patients must avoid sitting directly on their buttocks for about two weeks., Swelling, bruising, and discomfort are common, and compression garments may be needed to help with healing.',
       },
 
       {
         title: 'Benefits',
-        text: 'Improves facial symmetry and balance ,Enhances breathing function (if done for medical reasons), Boosts confidence with a more harmonious facial appearance',
+        text: 'Creates a more lifted, defined, and shapely buttock appearance, Can enhance body balance and proportions, Boosts self-confidence',
       },
       {
         title: 'Risks',
-        text: 'Difficulty breathing through the nose post-surgery, Nosebleeds, Infection or adverse reaction to anesthesia, Permanent numbness in the nose, Need for revision surgery',
+        text: 'Infection or fat embolism (especially with fat grafting), Implant shifting or rupture, Prolonged swelling and bruising, Scarring or asymmetry',
       },
     ],
   },
@@ -902,35 +896,35 @@ export const procedures = [
     name: ' Legs Sculpting and Muscle Definition',
     image: 'assets/images/blog/m8.webp',
     longDescription:
-      'Rhinoplasty is a surgical procedure to alter the shape, size, or proportions of the nose. It can be done for cosmetic reasons or to correct functional issues like breathing problems.',
+      'Leg sculpting often involves liposuction, fat transfer, or other body contouring techniques to enhance muscle definition and reduce fat in the legs.',
     shortDescription:
-      'Rhinoplasty is a surgical procedure to alter the shape, size, or proportions of the nose',
+      'Leg sculpting often involves liposuction, fat transfer, or other body ',
     descriptions: [
       {
-        title: 'Open Rhinoplasty',
-        text: 'Involves making an incision at the base of the nose, allowing for more comprehensive reshaping. This technique is preferred for significant changes.',
+        title: 'Liposuction',
+        text: 'Removes fat to highlight muscle definition in areas like the calves, thighs, and knees.',
       },
       {
-        title: 'Closed Rhinoplasty',
-        text: 'All incisions are made inside the nostrils, resulting in no visible scars. It is used for minor changes.',
+        title: 'Fat Transfer',
+        text: 'Involves removing fat from other areas and injecting it into the legs for volume and contour enhancement.',
       },
       {
-        title: 'Non-Surgical Rhinoplasty',
-        text: 'Involves injecting dermal fillers to temporarily improve the shape of the nose without surgery.',
+        title: 'Long-Term Considerations',
+        text: 'Results are long-lasting with a healthy lifestyle, but significant weight changes can impact the final appearance.',
       },
 
       {
         title: 'Recovery',
-        text: 'Swelling and bruising around the eyes and nose are common for 1–2 weeks., Full recovery can take up to a year, although most swelling subsides within a few months., You may need to wear a nasal splint for the first week after surgery.',
+        text: 'Recovery depends on the extent of the procedure, but initial recovery is about 2–3 weeks., Bruising, swelling, and discomfort are common, and compression garments may be needed.',
       },
 
       {
         title: 'Benefits',
-        text: 'Improves facial symmetry and balance ,Enhances breathing function (if done for medical reasons), Boosts confidence with a more harmonious facial appearance',
+        text: 'More defined, toned legs, Reduced appearance of cellulite, Improved overall leg shape',
       },
       {
         title: 'Risks',
-        text: 'Difficulty breathing through the nose post-surgery, Nosebleeds, Infection or adverse reaction to anesthesia, Permanent numbness in the nose, Need for revision surgery',
+        text: 'Temporary swelling, bruising, and numbness, Infection or scarring, Asymmetry or uneven contour',
       },
     ],
   },
@@ -939,35 +933,35 @@ export const procedures = [
     name: ' Chest Sculpting and Muscle Augmentation',
     image: 'assets/images/blog/m7.webp',
     longDescription:
-      'Rhinoplasty is a surgical procedure to alter the shape, size, or proportions of the nose. It can be done for cosmetic reasons or to correct functional issues like breathing problems.',
+      'Chest sculpting typically involves the insertion of implants or fat transfer to enhance chest size and definition in both men and women.',
     shortDescription:
-      'Rhinoplasty is a surgical procedure to alter the shape, size, or proportions of the nose',
+      'Chest sculpting typically involves the insertion of implants or fat ',
     descriptions: [
       {
-        title: 'Open Rhinoplasty',
-        text: 'Involves making an incision at the base of the nose, allowing for more comprehensive reshaping. This technique is preferred for significant changes.',
+        title: 'Pectoral Implants',
+        text: 'Silicone implants are inserted through small incisions in the chest to create a more muscular and defined appearance.',
       },
       {
-        title: 'Closed Rhinoplasty',
-        text: 'All incisions are made inside the nostrils, resulting in no visible scars. It is used for minor changes.',
+        title: 'Fat Transfer',
+        text: 'Involves injecting fat into the chest area to enhance size and definition.',
       },
       {
-        title: 'Non-Surgical Rhinoplasty',
-        text: 'Involves injecting dermal fillers to temporarily improve the shape of the nose without surgery.',
+        title: 'Long-Term Considerations',
+        text: 'Results are long-lasting, but fluctuations in body weight can affect the appearance., Implants may need replacement after 10–15 years or if complications arise.',
       },
 
       {
         title: 'Recovery',
-        text: 'Swelling and bruising around the eyes and nose are common for 1–2 weeks., Full recovery can take up to a year, although most swelling subsides within a few months., You may need to wear a nasal splint for the first week after surgery.',
+        text: 'Initial recovery takes about 2–4 weeks. Swelling, bruising, and soreness are common., It’s recommended to avoid chest exercises for 4–6 weeks to allow healing.',
       },
 
       {
         title: 'Benefits',
-        text: 'Improves facial symmetry and balance ,Enhances breathing function (if done for medical reasons), Boosts confidence with a more harmonious facial appearance',
+        text: 'Enhances muscle definition and chest size, Provides a more athletic appearance, Improves self-confidence',
       },
       {
         title: 'Risks',
-        text: 'Difficulty breathing through the nose post-surgery, Nosebleeds, Infection or adverse reaction to anesthesia, Permanent numbness in the nose, Need for revision surgery',
+        text: 'Infection or implant-related complications, Scarring or irregularities in muscle definition, Prolonged swelling or bruising, Asymmetry or need for revision surgery',
       },
     ],
   },

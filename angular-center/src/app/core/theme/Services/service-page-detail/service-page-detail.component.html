@@ -2,20 +2,101 @@
   <app-header></app-header>
 </div>
 
-<div class="container">
-  <div class="text-center mb-3">
-    <h1>{{ service.name }}</h1>
-    <div class="h-decor"></div>
-    <p>{{ service.description }}</p>
-    <div class="service-card-photo">
-      <img
-        src="{{ service.image }}"
-        class="img-fluid"
-        alt="{{ service.name }}"
-      />
+<div class="page-content"></div>
+<div class="section mt-0">
+  <div class="breadcrumbs-wrap">
+    <div class="container">
+      <div class="breadcrumbs">
+        <a routerLink="/home">Home</a>
+        <a routerLink="/blog">Blogs</a>
+        <span>{{ service?.name }}</span>
+      </div>
     </div>
   </div>
+</div>
+<div class="section page-content-first">
+  <div class="container mt-6">
+    <div class="row">
+      <div class="col-md">
+        <ul class="services-nav flex-column flex-nowrap">
+          <li class="nav-item">
+            <a class="nav-link">Our Blogs</a>
+            <div class="collapse show" id="submenu1">
+              <ul class="flex-column nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    [routerLink]="['/procedure', 'eyelid-lifting']"
+                    >Eyelid Lifting</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    [routerLink]="['/procedure', 'rhinoplasty']"
+                    >Rhinoplasty</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    [routerLink]="['/procedure', 'lip-augmentation']"
+                    >Lip Augmentation</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    [routerLink]="['/procedure', 'arm-sculpting']"
+                    >Arm Sculpting</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    [routerLink]="['/procedure', 'chin-jaw-sculpting']"
+                    >Chin Sculpting and Jaw Definition</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    [routerLink]="['/procedure', 'fat-injections']"
+                    >Fat Injections</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-8 col-lg-9 mt-4 mt-md-0">
+        <h1>{{ service.name }}</h1>
+        <div class="h-decor"></div>
 
-  <a [routerLink]="service.link" class="btn btn-secondry mt-4">Learn More</a>
+        <div class="service-card-photo">
+          <img
+            src="{{ service.image }}"
+            class="img-fluid"
+            alt="{{ service.name }}"
+          />
+        </div>
+        <p>{{ service.longDescription }}</p>
+        <ol class="fs-3">
+          {{
+            service.title
+          }}
+          <li>
+            <h4>{{ service.subtitle }}</h4>
+            <p>{{ descriptions.text }}</p>
+          </li>
+        </ol>
+      </div>
+
+      <a [routerLink]="service.link" class="btn btn-secondry mt-4"
+        >Learn More</a
+      >
+    </div>
+  </div>
 </div>
 <app-footer></app-footer>
