@@ -9,15 +9,31 @@ import { Service } from '../service-page/services.model';
   styleUrls: ['./service-page-detail.component.scss'],
 })
 export class ServicePageDetailComponent implements OnInit {
-  service!: Service; // The selected service
-  descriptions: any;
+  serviceId!: string;
+  service: any;
 
   constructor(private route: ActivatedRoute) {}
 
   ngOnInit(): void {
-    const serviceName = this.route.snapshot.paramMap.get('name'); // Get the service name from the route
-    if (serviceName) {
-      this.service = services.find((s) => s.link.includes(serviceName))!; // Find the service by its link
+    // Subscribe to route paramMap changes to detect changes in the 'id'
+    this.route.paramMap.subscribe((params) => {
+      this.serviceId = params.get('id')!;
+      this.loadserviceDetails();
+    });
+  }
+
+  loadserviceDetails() {
+    this.service = services.find((p) => p.id === this.serviceId);
+
+    console.log('Selectedservice:', this.service);
+
+    if (!this.service) {
+      this.service = {
+        name: 'service Not Found',
+        longDescription:
+          'Sorry, theservice you are looking for is not available.',
+        descriptions: [],
+      };
     }
   }
 }

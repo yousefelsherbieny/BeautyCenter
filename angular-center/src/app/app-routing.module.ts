@@ -33,7 +33,7 @@ const routes: Routes = [
   { path: 'blog', component: ServicePageComponent },
   { path: 'procedure/:id', component: BlogDetailComponent },
   { path: 'service-page', component: BlogComponent },
-  { path: 'services/:name', component: ServicePageDetailComponent }, // Route for service details
+  { path: 'blogs/:id', component: ServicePageDetailComponent }, // Route for service details
 ];
 
 @NgModule({

@@ -403,7 +403,7 @@ export const procedures = [
   {
     id: 'rhinoplasty',
     name: 'Rhinoplasty',
-    image: 'assets/images/blog/98.jpg', // Update with the correct image path
+    image: 'assets/images/blog/m1.jpg', // Update with the correct image path
     longDescription:
       'Rhinoplasty, commonly known as nose reshaping, is a surgical procedure that enhances the appearance and function of the nose, addressing issues such as size, shape, and structural defects.',
     shortDescription:
