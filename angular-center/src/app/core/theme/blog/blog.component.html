@@ -7,7 +7,7 @@
     <div class="breadcrumbs-wrap">
       <div class="container">
         <div class="breadcrumbs">
-          <a routerLink="/home">{{ 'BREADCRUMBS.HOME' | translate }}</a>
+          <a routerLink="/home">{{ "BREADCRUMBS.HOME" | translate }}</a>
           <span>Services </span>
         </div>
       </div>
@@ -41,9 +41,9 @@
               </a>
             </div>
             <h5 class="doctor-box-name">
-              <a [routerLink]="['/procedure', procedure.id]"
-                >{{ procedure.name }}</a
-              >
+              <a [routerLink]="['/procedure', procedure.id]">{{
+                procedure.name
+              }}</a>
             </h5>
             <div class="doctor-box-text">
               <p>{{ procedure.shortDescription }}</p>
@@ -54,8 +54,6 @@
           <li class="page-item active"><a class="page-link" href="#">1</a></li>
           <li class="page-item"><a class="page-link" href="#">2</a></li>
           <li class="page-item"><a class="page-link" href="#">3</a></li>
-          <li class="page-item"><span class="page-link">...</span></li>
-          <li class="page-item"><a class="page-link" href="#">15</a></li>
         </ul>
       </div>
     </div>

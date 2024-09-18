@@ -74,13 +74,6 @@
                       >Thigh Lifting</a
                     >
                   </li>
-                </ul>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link">Cosmetic Medicine For Mens</a>
-              <div class="collapse show" id="submenu1">
-                <ul class="flex-column nav">
                   <li class="nav-item">
                     <a
                       class="nav-link"
@@ -91,7 +84,10 @@
                   <li class="nav-item">
                     <a
                       class="nav-link"
-                      [routerLink]="['/procedure', 'abdominoplasty-waist-sculpting']"
+                      [routerLink]="[
+                        '/procedure',
+                        'abdominoplasty-waist-sculpting'
+                      ]"
                       >Abdominoplasty and Waist Sculpting</a
                     >
                   </li>
@@ -135,6 +131,92 @@
                       class="nav-link"
                       [routerLink]="['/procedure', 'fat-injections']"
                       >Fat Injections</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Cosmetic Medicine For Mens</a>
+              <div class="collapse show" id="submenu1">
+                <ul class="flex-column nav">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      [routerLink]="['/procedure', 'body-sculpting']"
+                      >Body sculpting</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      [routerLink]="['/procedure', 'eyelid-surgery']"
+                      >Eyelid Surgery</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      [routerLink]="['/procedure', 'rhinoplasty']"
+                      >Rhinoplasty</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      [routerLink]="['/procedure', 'chin-implant ']"
+                      >Chin Implant
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      [routerLink]="['/procedure', 'hair-implant']"
+                      >Hair Implant
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      [routerLink]="['/procedure', 'ear-surgery']"
+                      >Ear Surgery
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      [routerLink]="['/procedure', 'thigh-lift']"
+                      >Thigh Lift
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      [routerLink]="[
+                        '/procedure',
+                        'buttock-sculpting-for-athletic-shape'
+                      ]"
+                      >Buttock Sculpting for Athletic Shape
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      [routerLink]="[
+                        '/procedure',
+                        'legs-sculpting-and-muscle-definition'
+                      ]"
+                      >Legs Sculpting and Muscle Definition
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      [routerLink]="[
+                        '/procedure',
+                        'chest-Sculpting-and-Muscle-Augmentation'
+                      ]"
+                      >Chest Sculpting and Muscle Augmentation</a
                     >
                   </li>
                 </ul>
@@ -245,7 +327,9 @@
 
           <!-- Display message if no descriptions are available -->
           <p
-            *ngIf="!procedure?.descriptions || procedure.descriptions.length === 0"
+            *ngIf="
+              !procedure?.descriptions || procedure.descriptions.length === 0
+            "
           >
             No descriptions available.
           </p>

@@ -78,25 +78,51 @@
                     </a>
                   </li>
                   <li class="nav-item">
-										<a href="/service-page" class="nav-link dropdown-toggle" data-toggle="dropdown">Services</a>
-										<ul class="dropdown-menu">
-											<li><a class="dropdown-item" href="/service-page">All Services</a></li>
-											<li><a class="dropdown-item" [routerLink]="['/procedure', 'facial-fat-injections']">Service Page</a></li>
-										</ul>
-									</li>
+                    <a
+                      href="/service-page"
+                      class="nav-link dropdown-toggle"
+                      data-toggle="dropdown"
+                      >Services</a
+                    >
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="/service-page"
+                          >All Services</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          [routerLink]="['/procedure', 'facial-fat-injections']"
+                          >Service Page</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
                   <li class="nav-item">
                     <a class="nav-link" href="/About">
                       {{ "HEADER.MENU.ABOUT" | translate }}
                     </a>
                   </li>
-                  <li class="nav-item dropdown">
+                  <li class="nav-item">
                     <a
                       href="/blog"
                       class="nav-link dropdown-toggle"
                       data-toggle="dropdown"
+                      >Blogs</a
                     >
-                      {{ "HEADER.MENU.BLOG" | translate }}
-                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="/blog">All Blogs</a>
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          [routerLink]="['/blogs', 'cosmetic-Surgery']"
+                          >Blog Page</a
+                        >
+                      </li>
+                    </ul>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="/contact-us">

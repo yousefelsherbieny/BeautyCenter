@@ -1,6 +1,9 @@
 export interface Service {
+  id: string;
   name: string;
-  description: string;
   image: string;
-  link: string;
+  shortDescription: string;
+  longDescription: string;
+
+  descriptions?: (string | { title: string; text: string })[];
 }
