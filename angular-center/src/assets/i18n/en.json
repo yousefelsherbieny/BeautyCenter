@@ -1,5 +1,4 @@
 {
-
   "Common": {
     "Add": "Add",
     "AddNew": "Add New",
@@ -99,36 +98,145 @@
     "Yesterday": "yesterday",
     "Suggest": "Suggest"
   },
-    "BREADCRUMBS": {
-      "HOME": "Home",
-      "BLOGS": "Blogs"
+  "BREADCRUMBS": {
+    "HOME": "Home",
+    "BLOGS": "Blogs",
+    "SERVICES": "Services",
+    "All Services": "All Services",
+    "Service Page": "Service Page",
+    "All Blogs": "All Blogs",
+    "Blog Page": "Blog Page"
+  },
+  "BLOGS_SECTION": {
+    "WHAT_WE_OFFER": "What We Offer",
+    "OUR_BLOGS": "Our Blogs",
+    "DESCRIPTION": "Our programs customize the weight loss plan to the patient’s needs. All plans are medically supervised and under physician’s care."
+  },
+  "SERVICE_CARD": {
+    "NAME": "{{name}}",
+    "DESCRIPTION": "{{description}}",
+    "BENEFITS": "{{benefits}}"
+  },
+  "SERVICES": {
+    "TITLE": "Our Services",
+    "HEADER": "Services",
+    "DESCRIPTION": "We offer custom website development solutions designed to enhance your online presence with responsive, SEO-friendly, and fast-loading websites.",
+    "IMAGE_ALT": "Service Image"
+  },
+ "PROCEDURES": {
+    "facial-fat-injections": {
+      "name": "Facial Fat Injections",
+      "shortDescription": "Facial fat injections, also known as facial augmentation using fat transfer, is a cosmetic procedure designed to restore volume and rejuvenate the face using the patient's own fat."
     },
-    "BLOGS_SECTION": {
-      "WHAT_WE_OFFER": "What We Offer",
-      "OUR_BLOGS": "Our Blogs",
-      "DESCRIPTION": "Our programs customize the weight loss plan to the patient’s needs. All plans are medically supervised and under physician’s care."
+    "tummy-tuck": {
+      "name": "Tummy Tuck",
+      "shortDescription": "A tummy tuck is a surgical procedure aimed at improving the shape and tone of the abdominal area by removing excess fat and skin."
     },
-    "SERVICE_CARD": {
-      "NAME": "{{name}}",
-      "DESCRIPTION": "{{description}}",
-      "BENEFITS": "{{benefits}}"
+    "fat-injections-hands": {
+      "name": "Fat Injections in Hands",
+      "shortDescription": "Fat injections in the hands is a surgical procedure aimed at enhancing the appearance and beauty of the hands by restoring volume and reducing signs of aging."
     },
-    "HEADER": {
-      "LOCATION": "1560 Holden Street San Diego, CA 92139",
-      "PHONE": "1-800-267-0000",
-      "EMAIL": "info@dentco.net",
-      "MENU": {
-        "HOME": "Home",
-        "SERVICE": "Service",
-        "ABOUT": "About Us",
-        "BLOG": "Blog",
-        "CONTACTS": "Contacts"
-      },
-      "SOCIAL": {
-        "FACEBOOK": "https://www.facebook.com/",
-        "TWITTER": "https://www.twitter.com/",
-        "GOOGLE": "https://plus.google.com/",
-        "INSTAGRAM": "https://www.instagram.com/"
-      }
+    "lower-leg-fat-injections": {
+      "name": "Lower Leg Fat Injections",
+      "shortDescription": "Lower leg fat injections, also known as leg enhancement using fat transfer, is a cosmetic procedure designed to improve the appearance of the legs by restoring volume."
+    },
+    "bat-ear-sculpting": {
+      "name": "Bat Ear Sculpting",
+      "shortDescription": "Bat ear surgery, also known as otoplasty, is a cosmetic procedure that addresses protruding ears by reshaping and repositioning them closer to the head."
+    },
+    "buttocks-fat-injections": {
+      "name": "Buttocks Fat Injections",
+      "shortDescription": "Buttocks fat injections, also known as buttocks augmentation using fat transfer, is a cosmetic procedure that enhances the shape and size of the buttocks using the patient's own fat."
+    },
+    "thigh-lifting": {
+      "name": "Thigh Lifting",
+      "shortDescription": "Thigh lift is a surgical procedure aimed at improving the appearance and shape of the thigh area by removing excess skin and fat."
+    },
+    "thigh-sculpting": {
+      "name": "Thigh Sculpting",
+      "shortDescription": "Thigh sculpting is a cosmetic procedure designed to improve the shape of the thighs by removing fat and reshaping the area to achieve a more defined appearance."
+    },
+    "abdominoplasty-waist-sculpting": {
+      "name": "Abdominoplasty and Waist Sculpting",
+      "shortDescription": "Abdominoplasty and waist sculpting is a procedure aimed at improving the shape of the waist and abdomen by removing excess skin and fat."
+    },
+    "eyelid-lifting": {
+      "name": "Eyelid Lifting",
+      "shortDescription": "Eyelid lifting surgery, also known as blepharoplasty, aims to reduce eyelid drooping and rejuvenate the appearance of the eyes."
+    },
+    "rhinoplasty": {
+      "name": "Rhinoplasty",
+      "shortDescription": "Rhinoplasty, also known as nose reshaping, is a surgical procedure to improve the appearance or function of the nose."
+    },
+    "lip-augmentation": {
+      "name": "Lip Augmentation",
+      "shortDescription": "Lip augmentation is a procedure to enhance the fullness and shape of the lips, providing a more youthful and defined appearance."
+    },
+    "arm-sculpting": {
+      "name": "Arm Sculpting",
+      "shortDescription": "Arm sculpting, or arm lift surgery, improves the contour and tone of the upper arms by removing excess skin and fat."
+    },
+    "chin-jaw-sculpting": {
+      "name": "Chin and Jaw Sculpting",
+      "shortDescription": "Chin and jaw sculpting is a surgical procedure designed to enhance the definition of the lower face, improving overall facial harmony."
+    },
+    "fat-injections": {
+      "name": "Fat Injections",
+      "shortDescription": "Fat injections are a comprehensive treatment to enhance facial and body contour using autologous fat grafting."
+    },
+    "body-sculpting": {
+      "name": "Body Sculpting",
+      "shortDescription": "Body sculpting, also known as body contouring, involves procedures that help reduce fat."
+    },
+    "eyelid-surgery": {
+      "name": "Eyelid Surgery",
+      "shortDescription": "Eyelid surgery involves removing excess skin, fat, and muscle from the upper eyelids."
+    },
+"chest-Sculpting-and-Muscle-Augmentation": {
+      "name": "Chest Sculpting and Muscle Augmentation",
+      "shortDescription": "Chest sculpting typically involves the insertion of implants or fat."
+    },
+    "legs-sculpting-and-muscle-definition": {
+      "name": "Legs Sculpting and Muscle Definition",
+      "shortDescription": "Leg sculpting often involves liposuction, fat transfer, or other body contouring techniques."
+    },
+    "buttock-sculpting-for-athletic-shape": {
+      "name": "Buttock Sculpting for Athletic Shape",
+      "shortDescription": "Buttock sculpting can involve fat transfer (Brazilian butt lift), implants, or both."
+    },
+    "thigh-lift": {
+      "name": "Thigh Lift",
+      "shortDescription": "A thigh lift involves removing excess skin and fat from the thighs."
+    },
+    "ear-surgery": {
+      "name": "Ear Surgery",
+      "shortDescription": "Otoplasty is a surgical procedure to reshape or reposition the ears."
+    },
+    "hair-implant": {
+      "name": "Hair Implant",
+      "shortDescription": "Hair implants involve transplanting hair follicles from one part of the body."
+    },
+    "chin-implant": {
+      "name": "Chin Implant",
+      "shortDescription": "Chin implants involve the insertion of synthetic material to enhance the shape."
     }
+  },
+  "HEADER": {
+    "LOCATION": "1560 Holden Street San Diego, CA 92139",
+    "PHONE": "1-800-267-0000",
+    "EMAIL": "info@dentco.net",
+    "MENU": {
+      "HOME": "Home",
+      "SERVICE": "Service",
+      "ABOUT": "About Us",
+      "BLOG": "Blog",
+      "CONTACTS": "Contacts"
+    },
+    "SOCIAL": {
+      "FACEBOOK": "https://www.facebook.com/",
+      "TWITTER": "https://www.twitter.com/",
+      "GOOGLE": "https://plus.google.com/",
+      "INSTAGRAM": "https://www.instagram.com/"
+    }
+  }
 }

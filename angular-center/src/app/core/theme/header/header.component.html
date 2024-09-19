@@ -82,19 +82,19 @@
                       href="/service-page"
                       class="nav-link dropdown-toggle"
                       data-toggle="dropdown"
-                      >Services</a
+                      >{{ "BREADCRUMBS.SERVICES" | translate }}</a
                     >
                     <ul class="dropdown-menu">
                       <li>
                         <a class="dropdown-item" href="/service-page"
-                          >All Services</a
+                          >{{ "BREADCRUMBS.All Services" | translate }}</a
                         >
                       </li>
                       <li>
                         <a
                           class="dropdown-item"
                           [routerLink]="['/procedure', 'facial-fat-injections']"
-                          >Service Page</a
+                          >{{ "BREADCRUMBS.Service Page" | translate }}</a
                         >
                       </li>
                     </ul>
@@ -109,17 +109,17 @@
                       href="/blog"
                       class="nav-link dropdown-toggle"
                       data-toggle="dropdown"
-                      >Blogs</a
+                      >{{ "BREADCRUMBS.BLOGS" | translate }}</a
                     >
                     <ul class="dropdown-menu">
                       <li>
-                        <a class="dropdown-item" href="/blog">All Blogs</a>
+                        <a class="dropdown-item" href="/blog">{{ "BREADCRUMBS.All Blogs" | translate }}</a>
                       </li>
                       <li>
                         <a
                           class="dropdown-item"
                           [routerLink]="['/blogs', 'cosmetic-Surgery']"
-                          >Blog Page</a
+                          >{{ "BREADCRUMBS.Blog Page" | translate }}</a
                         >
                       </li>
                     </ul>

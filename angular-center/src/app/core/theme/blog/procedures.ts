@@ -712,7 +712,7 @@ export const procedures = [
     ],
   },
   {
-    id: 'chin-implant ',
+    id: 'chin-implant',
     name: ' Chin Implant ',
     image: 'assets/images/blog/m4.webp',
     longDescription:
