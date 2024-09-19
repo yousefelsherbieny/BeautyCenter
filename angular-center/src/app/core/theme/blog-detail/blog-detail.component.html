@@ -164,7 +164,7 @@
                   <li class="nav-item">
                     <a
                       class="nav-link"
-                      [routerLink]="['/procedure', 'chin-implant ']"
+                      [routerLink]="['/procedure', 'chin-implant']"
                       >Chin Implant
                     </a>
                   </li>
@@ -297,31 +297,44 @@
         </div>
         <div class="col-md-8 col-lg-9 mt-4 mt-md-0">
           <div class="title-wrap">
-            <h3>{{ procedure?.name }}</h3>
+            <h3>{{ "PROCEDURES." + procedure.id + ".name" | translate }}</h3>
           </div>
           <div class="service-img">
             <img
               [src]="procedure?.image"
               class="img-fluid full-width-image"
-              alt="{{ procedure?.name }}"
+              alt=" {{ 'PROCEDURES.' + procedure.id + '.name' | translate }}"
             />
           </div>
           <div class="mt-3 mt-lg-6"></div>
           <p>
-            {{ procedure?.longDescription }}
+            {{ "PROCEDURES." + procedure.id + ".longDescription" | translate }}
           </p>
           <div class="mt-5 mt-lg-6"></div>
 
           <h3>Description</h3>
 
           <!-- Conditionally display descriptions if they exist -->
+
           <ol
             *ngIf="procedure?.descriptions?.length > 0"
             class="procedure-list"
           >
-            <li *ngFor="let description of procedure.descriptions">
-              <h4>{{ description.title }}</h4>
-              <p>{{ description.text }}</p>
+            <li
+              *ngFor="let description of procedure.descriptions; let i = index"
+            >
+              <h4>
+                {{
+                  "PROCEDURES." + procedure.id + ".description.title." + i
+                    | translate
+                }}
+              </h4>
+              <p>
+                {{
+                  "PROCEDURES." + procedure.id + ".description.text." + i
+                    | translate
+                }}
+              </p>
             </li>
           </ol>
 

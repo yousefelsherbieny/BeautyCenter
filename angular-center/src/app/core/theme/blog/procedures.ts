@@ -674,43 +674,7 @@ export const procedures = [
       },
     ],
   },
-  {
-    id: 'rhinoplasty',
-    name: ' Rhinoplasty',
-    image: 'assets/images/blog/m1.jpg',
-    longDescription:
-      'Rhinoplasty is a surgical procedure to alter the shape, size, or proportions of the nose. It can be done for cosmetic reasons or to correct functional issues like breathing problems.',
-    shortDescription:
-      'Rhinoplasty is a surgical procedure to alter the shape, size, or proportions of the nose',
-    descriptions: [
-      {
-        title: 'Open Rhinoplasty',
-        text: 'Involves making an incision at the base of the nose, allowing for more comprehensive reshaping. This technique is preferred for significant changes.',
-      },
-      {
-        title: 'Closed Rhinoplasty',
-        text: 'All incisions are made inside the nostrils, resulting in no visible scars. It is used for minor changes.',
-      },
-      {
-        title: 'Non-Surgical Rhinoplasty',
-        text: 'Involves injecting dermal fillers to temporarily improve the shape of the nose without surgery.',
-      },
 
-      {
-        title: 'Recovery',
-        text: 'Swelling and bruising around the eyes and nose are common for 1–2 weeks., Full recovery can take up to a year, although most swelling subsides within a few months., You may need to wear a nasal splint for the first week after surgery.',
-      },
-
-      {
-        title: 'Benefits',
-        text: 'Improves facial symmetry and balance ,Enhances breathing function (if done for medical reasons), Boosts confidence with a more harmonious facial appearance',
-      },
-      {
-        title: 'Risks',
-        text: 'Difficulty breathing through the nose post-surgery, Nosebleeds, Infection or adverse reaction to anesthesia, Permanent numbness in the nose, Need for revision surgery',
-      },
-    ],
-  },
   {
     id: 'chin-implant',
     name: ' Chin Implant ',
