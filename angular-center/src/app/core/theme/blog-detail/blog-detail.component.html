@@ -7,9 +7,11 @@
     <div class="breadcrumbs-wrap">
       <div class="container">
         <div class="breadcrumbs">
-          <a routerLink="/home">Home</a>
-          <a routerLink="/service-page">Service</a>
-          <span>{{ procedure?.name }}</span>
+          <a routerLink="/home">{{ "HEADER.MENU.HOME" | translate }}</a>
+          <a routerLink="/service-page">{{
+            "HEADER.MENU.SERVICE" | translate
+          }}</a>
+          <span>{{ "PROCEDURES." + procedure.id + ".name" | translate }}</span>
         </div>
       </div>
     </div>
@@ -22,63 +24,84 @@
         <div class="col-md">
           <ul class="services-nav flex-column flex-nowrap">
             <li class="nav-item">
-              <a class="nav-link">Cosmetic Medicine For Women</a>
+              <a class="nav-link">{{ "Common.CosmeticWomen" | translate }}</a>
               <div class="collapse show" id="submenu1">
                 <ul class="flex-column nav">
                   <li class="nav-item">
                     <a
                       class="nav-link"
                       [routerLink]="['/procedure', 'facial-fat-injections']"
-                      >Facial Fat Injections</a
+                      >{{
+                        "PROCEDURES." + "facial-fat-injections" + ".name"
+                          | translate
+                      }}</a
                     >
                   </li>
                   <li class="nav-item">
                     <a
                       class="nav-link"
                       [routerLink]="['/procedure', 'tummy-tuck']"
-                      >Tummy Tuck</a
+                      >{{
+                        "PROCEDURES." + "tummy-tuck" + ".name" | translate
+                      }}</a
                     >
                   </li>
                   <li class="nav-item">
                     <a
                       class="nav-link"
                       [routerLink]="['/procedure', 'fat-injections-hands']"
-                      >Fat Injections in Hands</a
+                      >{{
+                        "PROCEDURES." + "fat-injections-hands" + ".name"
+                          | translate
+                      }}</a
                     >
                   </li>
                   <li class="nav-item">
                     <a
                       class="nav-link"
                       [routerLink]="['/procedure', 'lower-leg-fat-injections']"
-                      >Lower Leg Fat Injections</a
+                      >{{
+                        "PROCEDURES." + "lower-leg-fat-injections" + ".name"
+                          | translate
+                      }}</a
                     >
                   </li>
                   <li class="nav-item">
                     <a
                       class="nav-link"
                       [routerLink]="['/procedure', 'bat-ear-sculpting']"
-                      >Bat Ear Sculpting</a
+                      >{{
+                        "PROCEDURES." + "bat-ear-sculpting" + ".name"
+                          | translate
+                      }}</a
                     >
                   </li>
                   <li class="nav-item">
                     <a
                       class="nav-link"
                       [routerLink]="['/procedure', 'buttocks-fat-injections']"
-                      >Fat Injections in Buttocks</a
+                      >{{
+                        "PROCEDURES." + "buttocks-fat-injections" + ".name"
+                          | translate
+                      }}</a
                     >
                   </li>
                   <li class="nav-item">
                     <a
                       class="nav-link"
                       [routerLink]="['/procedure', 'thigh-lifting']"
-                      >Thigh Lifting</a
+                      >{{
+                        "PROCEDURES." + "thigh-lifting" + ".name" | translate
+                      }}</a
                     >
                   </li>
                   <li class="nav-item">
                     <a
                       class="nav-link"
                       [routerLink]="['/procedure', 'thigh-sculpting']"
-                      >Thigh Sculpting</a
+                      >{{
+                        "PROCEDURES." + "thigh-sculpting" + ".name" | translate
+                      }}</a
                     >
                   </li>
                   <li class="nav-item">
@@ -88,105 +111,133 @@
                         '/procedure',
                         'abdominoplasty-waist-sculpting'
                       ]"
-                      >Abdominoplasty and Waist Sculpting</a
+                      >{{
+                        "PROCEDURES." +
+                          "abdominoplasty-waist-sculpting" +
+                          ".name" | translate
+                      }}</a
                     >
                   </li>
                   <li class="nav-item">
                     <a
                       class="nav-link"
                       [routerLink]="['/procedure', 'eyelid-lifting']"
-                      >Eyelid Lifting</a
+                      >{{
+                        "PROCEDURES." + "eyelid-lifting" + ".name" | translate
+                      }}</a
                     >
                   </li>
                   <li class="nav-item">
                     <a
                       class="nav-link"
                       [routerLink]="['/procedure', 'rhinoplasty']"
-                      >Rhinoplasty</a
+                      >{{
+                        "PROCEDURES." + "rhinoplasty" + ".name" | translate
+                      }}</a
                     >
                   </li>
                   <li class="nav-item">
                     <a
                       class="nav-link"
                       [routerLink]="['/procedure', 'lip-augmentation']"
-                      >Lip Augmentation</a
+                      >{{
+                        "PROCEDURES." + "lip-augmentation" + ".name" | translate
+                      }}</a
                     >
                   </li>
                   <li class="nav-item">
                     <a
                       class="nav-link"
                       [routerLink]="['/procedure', 'arm-sculpting']"
-                      >Arm Sculpting</a
+                      >{{
+                        "PROCEDURES." + "arm-sculpting" + ".name" | translate
+                      }}</a
                     >
                   </li>
                   <li class="nav-item">
                     <a
                       class="nav-link"
                       [routerLink]="['/procedure', 'chin-jaw-sculpting']"
-                      >Chin Sculpting and Jaw Definition</a
+                      >{{
+                        "PROCEDURES." + "chin-jaw-sculpting" + ".name"
+                          | translate
+                      }}</a
                     >
                   </li>
                   <li class="nav-item">
                     <a
                       class="nav-link"
                       [routerLink]="['/procedure', 'fat-injections']"
-                      >Fat Injections</a
+                      >{{
+                        "PROCEDURES." + "fat-injections" + ".name" | translate
+                      }}</a
                     >
                   </li>
                 </ul>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Cosmetic Medicine For Mens</a>
+              <a class="nav-link">{{ "Common.CosmeticMens" | translate }}</a>
               <div class="collapse show" id="submenu1">
                 <ul class="flex-column nav">
                   <li class="nav-item">
                     <a
                       class="nav-link"
                       [routerLink]="['/procedure', 'body-sculpting']"
-                      >Body sculpting</a
+                      >{{
+                        "PROCEDURES." + "body-sculpting" + ".name" | translate
+                      }}</a
                     >
                   </li>
                   <li class="nav-item">
                     <a
                       class="nav-link"
                       [routerLink]="['/procedure', 'eyelid-surgery']"
-                      >Eyelid Surgery</a
+                      >{{
+                        "PROCEDURES." + "eyelid-surgery" + ".name" | translate
+                      }}</a
                     >
                   </li>
                   <li class="nav-item">
                     <a
                       class="nav-link"
-                      [routerLink]="['/procedure', 'rhinoplasty']"
-                      >Rhinoplasty</a
+                      [routerLink]="['/procedure', 'rhinoplasty-for-men']"
+                      >{{
+                        "PROCEDURES." + "rhinoplasty-for-men" + ".name"
+                          | translate
+                      }}</a
                     >
                   </li>
                   <li class="nav-item">
                     <a
                       class="nav-link"
                       [routerLink]="['/procedure', 'chin-implant']"
-                      >Chin Implant
+                      >{{
+                        "PROCEDURES." + "chin-implant" + ".name" | translate
+                      }}
                     </a>
                   </li>
                   <li class="nav-item">
                     <a
                       class="nav-link"
                       [routerLink]="['/procedure', 'hair-implant']"
-                      >Hair Implant
+                      >{{
+                        "PROCEDURES." + "hair-implant" + ".name" | translate
+                      }}
                     </a>
                   </li>
                   <li class="nav-item">
                     <a
                       class="nav-link"
                       [routerLink]="['/procedure', 'ear-surgery']"
-                      >Ear Surgery
+                      >{{ "PROCEDURES." + "ear-surgery" + ".name" | translate }}
                     </a>
                   </li>
                   <li class="nav-item">
                     <a
                       class="nav-link"
                       [routerLink]="['/procedure', 'thigh-lift']"
-                      >Thigh Lift
+                      >{{ "PROCEDURES." + "thigh-lift" + ".name" | translate }}
                     </a>
                   </li>
                   <li class="nav-item">
@@ -196,7 +247,11 @@
                         '/procedure',
                         'buttock-sculpting-for-athletic-shape'
                       ]"
-                      >Buttock Sculpting for Athletic Shape
+                      >{{
+                        "PROCEDURES." +
+                          "buttock-sculpting-for-athletic-shape" +
+                          ".name" | translate
+                      }}
                     </a>
                   </li>
                   <li class="nav-item">
@@ -206,7 +261,11 @@
                         '/procedure',
                         'legs-sculpting-and-muscle-definition'
                       ]"
-                      >Legs Sculpting and Muscle Definition
+                      >{{
+                        "PROCEDURES." +
+                          "legs-sculpting-and-muscle-definition" +
+                          ".name" | translate
+                      }}
                     </a>
                   </li>
                   <li class="nav-item">
@@ -216,7 +275,11 @@
                         '/procedure',
                         'chest-Sculpting-and-Muscle-Augmentation'
                       ]"
-                      >Chest Sculpting and Muscle Augmentation</a
+                      >{{
+                        "PROCEDURES." +
+                          "chest-Sculpting-and-Muscle-Augmentation" +
+                          ".name" | translate
+                      }}</a
                     >
                   </li>
                 </ul>
@@ -226,23 +289,31 @@
           <div class="row d-flex flex-column flex-sm-row flex-md-column mt-3">
             <div class="col-auto col-sm col-md-auto">
               <div class="contact-box contact-box-1">
-                <h5 class="contact-box-title">Working Time</h5>
+                <h5 class="contact-box-title">
+                  {{ "Common.WorkingTime" | translate }}
+                </h5>
                 <ul class="icn-list">
                   <li>
-                    <i class="icon-clock"></i>Mon-Thu 08:00 - 20:00 <br />Friday
-                    07:00 - 22:00 <br />Saturday 08:00 - 18:00
+                    <i class="icon-clock"></i
+                    >{{ "Common.MonThu" | translate }} 08:00 - 20:00 <br />{{
+                      "Common.Friday" | translate
+                    }}
+                    07:00 - 22:00 <br />{{ "Common.Saturday" | translate }}
+                    08:00 - 18:00
                   </li>
                 </ul>
               </div>
             </div>
             <div class="col-auto col-sm col-md-auto">
               <div class="contact-box contact-box-2">
-                <h5 class="contact-box-title">Contact Info</h5>
+                <h5 class="contact-box-title">
+                  {{ "Common.ContactInfo" | translate }}
+                </h5>
                 <ul class="icn-list">
                   <li>
                     <i class="icon-telephone"></i>
                     <div class="d-flex flex-wrap">
-                      <span>Phone:&nbsp;&nbsp;</span>
+                      <span>{{ "Common.Phone" | translate }}:&nbsp;&nbsp;</span>
                       <span
                         >1-800-267-0000<br />
                         1-800-267-0001</span
@@ -254,15 +325,14 @@
             </div>
           </div>
           <div class="question-box mt-3">
-            <h5 class="question-box-title">Ask the Experts</h5>
+            <h5 class="question-box-title">{{ "Common.Ask" | translate }}</h5>
             <form id="questionForm" method="post" novalidate>
               <div class="successform">
-                <p>Your message was sent successfully!</p>
+                <p>{{ "Common.YourMessage" | translate }}</p>
               </div>
               <div class="errorform">
                 <p>
-                  Something went wrong, try refreshing and submitting the form
-                  again.
+                  {{ "Common.SomethingWrong" | translate }}
                 </p>
               </div>
               <input
@@ -289,7 +359,8 @@
                 placeholder="Question*"
               ></textarea>
               <button type="submit" class="btn btn-sm btn-hover-fill mt-15">
-                <i class="icon-right-arrow"></i><span>Ask Now</span
+                <i class="icon-right-arrow"></i
+                ><span>{{ "Common.AskNow" | translate }}</span
                 ><i class="icon-right-arrow"></i>
               </button>
             </form>
@@ -312,7 +383,7 @@
           </p>
           <div class="mt-5 mt-lg-6"></div>
 
-          <h3>Description</h3>
+          <h3>{{ "Common.Description" | translate }}</h3>
 
           <!-- Conditionally display descriptions if they exist -->
 

@@ -82,19 +82,19 @@
                       href="/service-page"
                       class="nav-link dropdown-toggle"
                       data-toggle="dropdown"
-                      >Services</a
+                      >{{ "HEADER.MENU.SERVICE" | translate }}</a
                     >
                     <ul class="dropdown-menu">
                       <li>
-                        <a class="dropdown-item" href="/service-page"
-                          >All Services</a
-                        >
+                        <a class="dropdown-item" href="/service-page">{{
+                          "HEADER.MENU.Services" | translate
+                        }}</a>
                       </li>
                       <li>
                         <a
                           class="dropdown-item"
                           [routerLink]="['/procedure', 'facial-fat-injections']"
-                          >Service Page</a
+                          >{{ "HEADER.MENU.ServiceBage" | translate }}</a
                         >
                       </li>
                     </ul>
@@ -109,17 +109,19 @@
                       href="/blog"
                       class="nav-link dropdown-toggle"
                       data-toggle="dropdown"
-                      >Blogs</a
+                      >{{ "HEADER.MENU.BLOG" | translate }}</a
                     >
                     <ul class="dropdown-menu">
                       <li>
-                        <a class="dropdown-item" href="/blog">All Blogs</a>
+                        <a class="dropdown-item" href="/blog">{{
+                          "HEADER.MENU.Blogs" | translate
+                        }}</a>
                       </li>
                       <li>
                         <a
                           class="dropdown-item"
                           [routerLink]="['/blogs', 'cosmetic-Surgery']"
-                          >Blog Page</a
+                          >{{ "HEADER.MENU.BlogBage" | translate }}</a
                         >
                       </li>
                     </ul>
@@ -178,7 +180,6 @@
                   </ng-template>
                 </span>
               </div>
-              
             </nav>
           </div>
         </div>
