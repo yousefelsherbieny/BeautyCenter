@@ -11,7 +11,7 @@
   <div class="section home-services">
     <div class="container">
       <div class="text-center">
-        <h2 class="theme-color">{{ 'BREADCRUMBS.SERVICES' | translate }}</h2>
+        <h2 class="theme-color">{{ "BREADCRUMBS.SERVICES" | translate }}</h2>
         <div class="h-decor"></div>
       </div>
 
@@ -30,13 +30,15 @@
             </div>
             <h5 class="doctor-box-name">
               <a routerLink="/procedure/facial-fat-injections">
-                {{ 'PROCEDURES.facial-fat-injections.name' | translate }}
+                {{ "PROCEDURES.facial-fat-injections.name" | translate }}
               </a>
             </h5>
             <div class="doctor-box-text">
               <p>
-                {{ 'PROCEDURES.facial-fat-injections.shortDescription' |
-                translate }}
+                {{
+                  "PROCEDURES.facial-fat-injections.shortDescription"
+                    | translate
+                }}
               </p>
             </div>
           </div>
@@ -45,21 +47,23 @@
         <div class="gallery-item col-lg-4 col-md-6 col-sm-12 mb-4">
           <div class="doctor-box text-center">
             <div class="doctor-box-photo">
-              <a routerLink="/procedure/tummy-tuck">
+              <a routerLink="/procedure/body-sculpting">
                 <img
-                  src="assets/images/blog/b6.jpeg"
+                  src="assets/images/blog/m9.jpeg"
                   class="img-fluid"
                   alt="{{ 'SERVICES.IMAGE_ALT' | translate }}"
                 />
               </a>
             </div>
             <h5 class="doctor-box-name">
-              <a routerLink="/procedure/tummy-tuck">
-                {{ 'PROCEDURES.tummy-tuck.name' | translate }}
+              <a routerLink="/procedure/body-sculpting">
+                {{ "PROCEDURES.body-sculpting.name" | translate }}
               </a>
             </h5>
             <div class="doctor-box-text">
-              <p>{{ 'PROCEDURES.tummy-tuck.shortDescription' | translate }}</p>
+              <p>
+                {{ "PROCEDURES.body-sculpting.shortDescription" | translate }}
+              </p>
             </div>
           </div>
         </div>
@@ -78,13 +82,14 @@
             </div>
             <h5 class="doctor-box-name">
               <a routerLink="/procedure/fat-injections-hands">
-                {{ 'PROCEDURES.fat-injections-hands.name' | translate }}
+                {{ "PROCEDURES.fat-injections-hands.name" | translate }}
               </a>
             </h5>
             <div class="doctor-box-text">
               <p>
-                {{ 'PROCEDURES.fat-injections-hands.shortDescription' |
-                translate }}
+                {{
+                  "PROCEDURES.fat-injections-hands.shortDescription" | translate
+                }}
               </p>
             </div>
           </div>
@@ -94,23 +99,28 @@
         <div class="gallery-item col-lg-4 col-md-6 col-sm-12 mb-4">
           <div class="doctor-box text-center">
             <div class="doctor-box-photo">
-              <a routerLink="/procedure/lower-leg-fat-injections">
+              <a routerLink="/procedure/legs-sculpting-and-muscle-definition">
                 <img
-                  src="assets/images/blog/43.webp"
+                  src="assets/images/blog/m8.webp"
                   class="img-fluid"
                   alt="{{ 'SERVICES.IMAGE_ALT' | translate }}"
                 />
               </a>
             </div>
             <h5 class="doctor-box-name">
-              <a routerLink="/procedure/lower-leg-fat-injections">
-                {{ 'PROCEDURES.lower-leg-fat-injections.name' | translate }}
+              <a routerLink="/procedure/legs-sculpting-and-muscle-definition">
+                {{
+                  "PROCEDURES.legs-sculpting-and-muscle-definition.name"
+                    | translate
+                }}
               </a>
             </h5>
             <div class="doctor-box-text">
               <p>
-                {{ 'PROCEDURES.lower-leg-fat-injections.shortDescription' |
-                translate }}
+                {{
+                  "PROCEDURES.legs-sculpting-and-muscle-definition.shortDescription"
+                    | translate
+                }}
               </p>
             </div>
           </div>
@@ -130,12 +140,13 @@
             </div>
             <h5 class="doctor-box-name">
               <a routerLink="/procedure/bat-ear-sculpting">
-                {{ 'PROCEDURES.bat-ear-sculpting.name' | translate }}
+                {{ "PROCEDURES.bat-ear-sculpting.name" | translate }}
               </a>
             </h5>
             <div class="doctor-box-text">
               <p>
-                {{ 'PROCEDURES.bat-ear-sculpting.shortDescription' | translate
+                {{
+                  "PROCEDURES.bat-ear-sculpting.shortDescription" | translate
                 }}
               </p>
             </div>
@@ -146,23 +157,24 @@
         <div class="gallery-item col-lg-4 col-md-6 col-sm-12 mb-4">
           <div class="doctor-box text-center">
             <div class="doctor-box-photo">
-              <a routerLink="/procedure/buttocks-fat-injections">
+              <a routerLink="/procedure/rhinoplasty-for-men">
                 <img
-                  src="assets/images/blog/98.webp"
+                  src="assets/images/blog/m1.jpg"
                   class="img-fluid"
                   alt="{{ 'SERVICES.IMAGE_ALT' | translate }}"
                 />
               </a>
             </div>
             <h5 class="doctor-box-name">
-              <a routerLink="/procedure/buttocks-fat-injections">
-                {{ 'PROCEDURES.buttocks-fat-injections.name' | translate }}
+              <a routerLink="/procedure/rhinoplasty-for-men">
+                {{ "PROCEDURES.rhinoplasty-for-men.name" | translate }}
               </a>
             </h5>
             <div class="doctor-box-text">
               <p>
-                {{ 'PROCEDURES.buttocks-fat-injections.shortDescription' |
-                translate }}
+                {{
+                  "PROCEDURES.rhinoplasty-for-men.shortDescription" | translate
+                }}
               </p>
             </div>
           </div>
@@ -176,25 +188,76 @@
   <div class="section bg-grey">
     <div class="container">
       <div class="text-center">
-        <h2 class="theme-color">{{ 'BREADCRUMBS.BLOGS' | translate }}</h2>
+        <h2 class="theme-color">{{ "BREADCRUMBS.BLOGS" | translate }}</h2>
         <div class="h-decor"></div>
       </div>
       <div class="row">
-        <div
-          class="gallery-item col-lg-4 col-md-6 col-sm-12 mb-4"
-          *ngFor="let service of services"
-        >
+        <div class="gallery-item col-lg-4 col-md-6 col-sm-12 mb-4">
           <div class="doctor-box text-center">
             <div class="doctor-box-photo">
-              <a [routerLink]="['/blogs', service.id]">
-                <img [src]="service.image" class="img-fluid" alt="" />
+              <a routerLink="/service/new-Technologies">
+                <img
+                  src="assets/images/content/services-07-index.jpg"
+                  class="img-fluid"
+                  alt="{{ 'SERVICES.IMAGE_ALT' | translate }}"
+                />
               </a>
             </div>
             <h5 class="doctor-box-name">
-              <a [routerLink]="['/blogs', service.id]">{{ service.name }}</a>
+              <a routerLink="/service/new-Technologies">
+                {{ "SERVICES.new-Technologies.name" | translate }}
+              </a>
             </h5>
             <div class="doctor-box-text">
-              <p>{{ service.shortDescription }}</p>
+              <p>
+                {{ "SERVICES.new-Technologies.shortDescription" | translate }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div class="doctor-box text-center">
+            <div class="doctor-box-photo">
+              <a routerLink="/service/the-Difference">
+                <img
+                  src="assets/images/blog/blog3.jpg"
+                  class="img-fluid"
+                  alt="{{ 'SERVICES.IMAGE_ALT' | translate }}"
+                />
+              </a>
+            </div>
+            <h5 class="doctor-box-name">
+              <a routerLink="/service/the-Difference">
+                {{ "SERVICES.the-Difference.name" | translate }}
+              </a>
+            </h5>
+            <div class="doctor-box-text">
+              <p>
+                {{ "SERVICES.the-Difference.shortDescription" | translate }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div class="doctor-box text-center">
+            <div class="doctor-box-photo">
+              <a routerLink="/service/how-to-Choose">
+                <img
+                  src="assets/images/blog/blog11.jpg"
+                  class="img-fluid"
+                  alt="{{ 'SERVICES.IMAGE_ALT' | translate }}"
+                />
+              </a>
+            </div>
+            <h5 class="doctor-box-name">
+              <a routerLink="/service/how-to-Choose">
+                {{ "SERVICES.how-to-Choose.name" | translate }}
+              </a>
+            </h5>
+            <div class="doctor-box-text">
+              <p>
+                {{ "SERVICES.how-to-Choose.shortDescription" | translate }}
+              </p>
             </div>
           </div>
         </div>
@@ -293,11 +356,7 @@
             </div>
           </div>
           <div class="col-sm-5 col-lg-5 col-xl-4 mt-3">
-            <img
-              src="assets/images/content/banner-callus.jpg"
-              class="shift-right-2"
-              alt=""
-            />
+            <img src="assets/images/content/banner-callus.jpg" alt="" />
           </div>
         </div>
       </div>

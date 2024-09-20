@@ -4,7 +4,7 @@
 
 <div class="page-content">
   <div class="section mt-0">
-    <div >
+    <div>
       <div class="container">
         <div class="breadcrumbs">
           <a routerLink="/home">{{ "HEADER.MENU.HOME" | translate }}</a>
@@ -183,7 +183,7 @@
           </p>
           <div class="mt-5 mt-lg-6"></div>
 
-          <h3>Description</h3>
+          <h3>{{ "Common.Description" | translate }}</h3>
 
           <!-- Conditionally display descriptions if they exist -->
           <ol *ngIf="service?.descriptions?.length > 0" class="service-list">
