@@ -8,148 +8,193 @@
   <app-slider></app-slider>
   <!--//section slider-->
 
-  <!--section-->
-  <div class="row">
-    <div class="text-center">
-      <h2><span class="theme-color">Special Services</span></h2>
-      <div class="h-decor"></div>
-    </div>
-    <div class="prd-grid">
-      <div class="prd">
-        <div class="prd-img">
-          <img src="assets/images/blog/64.jpg" class="img-fluid" alt="" />
-        </div>
-        <h2 class="theme-color">Lip Augmentation</h2>
-        <div class="prd-info">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-          </p>
-        </div>
+  <div class="section home-services">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="theme-color">{{ 'BREADCRUMBS.SERVICES' | translate }}</h2>
+        <div class="h-decor"></div>
       </div>
-      <div class="prd">
-        <div class="prd-img">
-          <img src="assets/images/blog/13.jpeg" class="img-fluid" alt="" />
+
+      <div class="row">
+        <!-- Showcase selected services on the home page -->
+        <div class="gallery-item col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div class="doctor-box text-center">
+            <div class="doctor-box-photo">
+              <a routerLink="/procedure/facial-fat-injections">
+                <img
+                  src="assets/images/blog/b4.jpeg"
+                  class="img-fluid"
+                  alt="{{ 'SERVICES.IMAGE_ALT' | translate }}"
+                />
+              </a>
+            </div>
+            <h5 class="doctor-box-name">
+              <a routerLink="/procedure/facial-fat-injections">
+                {{ 'PROCEDURES.facial-fat-injections.name' | translate }}
+              </a>
+            </h5>
+            <div class="doctor-box-text">
+              <p>
+                {{ 'PROCEDURES.facial-fat-injections.shortDescription' |
+                translate }}
+              </p>
+            </div>
+          </div>
         </div>
-        <h2 class="theme-color">Facial implants</h2>
-        <div class="prd-info">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-          </p>
+
+        <div class="gallery-item col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div class="doctor-box text-center">
+            <div class="doctor-box-photo">
+              <a routerLink="/procedure/tummy-tuck">
+                <img
+                  src="assets/images/blog/b6.jpeg"
+                  class="img-fluid"
+                  alt="{{ 'SERVICES.IMAGE_ALT' | translate }}"
+                />
+              </a>
+            </div>
+            <h5 class="doctor-box-name">
+              <a routerLink="/procedure/tummy-tuck">
+                {{ 'PROCEDURES.tummy-tuck.name' | translate }}
+              </a>
+            </h5>
+            <div class="doctor-box-text">
+              <p>{{ 'PROCEDURES.tummy-tuck.shortDescription' | translate }}</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="prd">
-        <div class="prd-img">
-          <img src="assets/images/blog/b4.jpeg" class="img-fluid" alt="" />
+
+        <!-- Fat Injections in Hands -->
+        <div class="gallery-item col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div class="doctor-box text-center">
+            <div class="doctor-box-photo">
+              <a routerLink="/procedure/fat-injections-hands">
+                <img
+                  src="assets/images/blog/b8.jpg"
+                  class="img-fluid"
+                  alt="{{ 'SERVICES.IMAGE_ALT' | translate }}"
+                />
+              </a>
+            </div>
+            <h5 class="doctor-box-name">
+              <a routerLink="/procedure/fat-injections-hands">
+                {{ 'PROCEDURES.fat-injections-hands.name' | translate }}
+              </a>
+            </h5>
+            <div class="doctor-box-text">
+              <p>
+                {{ 'PROCEDURES.fat-injections-hands.shortDescription' |
+                translate }}
+              </p>
+            </div>
+          </div>
         </div>
-        <h2 class="theme-color">Facial Fat Injections</h2>
-        <div class="prd-info">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-          </p>
+
+        <!-- Lower Leg Fat Injections -->
+        <div class="gallery-item col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div class="doctor-box text-center">
+            <div class="doctor-box-photo">
+              <a routerLink="/procedure/lower-leg-fat-injections">
+                <img
+                  src="assets/images/blog/43.webp"
+                  class="img-fluid"
+                  alt="{{ 'SERVICES.IMAGE_ALT' | translate }}"
+                />
+              </a>
+            </div>
+            <h5 class="doctor-box-name">
+              <a routerLink="/procedure/lower-leg-fat-injections">
+                {{ 'PROCEDURES.lower-leg-fat-injections.name' | translate }}
+              </a>
+            </h5>
+            <div class="doctor-box-text">
+              <p>
+                {{ 'PROCEDURES.lower-leg-fat-injections.shortDescription' |
+                translate }}
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="prd">
-        <div class="prd-img">
-          <img src="assets/images/blog/m4.webp" class="img-fluid" alt="" />
+
+        <!-- Bat Ear Sculpting -->
+        <div class="gallery-item col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div class="doctor-box text-center">
+            <div class="doctor-box-photo">
+              <a routerLink="/procedure/bat-ear-sculpting">
+                <img
+                  src="assets/images/blog/87.png"
+                  class="img-fluid"
+                  alt="{{ 'SERVICES.IMAGE_ALT' | translate }}"
+                />
+              </a>
+            </div>
+            <h5 class="doctor-box-name">
+              <a routerLink="/procedure/bat-ear-sculpting">
+                {{ 'PROCEDURES.bat-ear-sculpting.name' | translate }}
+              </a>
+            </h5>
+            <div class="doctor-box-text">
+              <p>
+                {{ 'PROCEDURES.bat-ear-sculpting.shortDescription' | translate
+                }}
+              </p>
+            </div>
+          </div>
         </div>
-        <h2 class="theme-color">Chin Implant</h2>
-        <div class="prd-info">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-          </p>
+
+        <!-- Fat Injections in Buttocks -->
+        <div class="gallery-item col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div class="doctor-box text-center">
+            <div class="doctor-box-photo">
+              <a routerLink="/procedure/buttocks-fat-injections">
+                <img
+                  src="assets/images/blog/98.webp"
+                  class="img-fluid"
+                  alt="{{ 'SERVICES.IMAGE_ALT' | translate }}"
+                />
+              </a>
+            </div>
+            <h5 class="doctor-box-name">
+              <a routerLink="/procedure/buttocks-fat-injections">
+                {{ 'PROCEDURES.buttocks-fat-injections.name' | translate }}
+              </a>
+            </h5>
+            <div class="doctor-box-text">
+              <p>
+                {{ 'PROCEDURES.buttocks-fat-injections.shortDescription' |
+                translate }}
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="prd">
-        <div class="prd-img">
-          <img src="assets/images/blog/m7.webp" class="img-fluid" alt="" />
-        </div>
-        <h2 class="theme-color">Chest Sculpting and Muscle Augmentation</h2>
-        <div class="prd-info">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-          </p>
-        </div>
-      </div>
-      <div class="prd">
-        <div class="prd-img">
-          <img src="assets/images/blog/m2.jpg" class="img-fluid" alt="" />
-        </div>
-        <h2 class="theme-color">Buttock Sculpting for Athletic Shape</h2>
-        <div class="prd-info">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-          </p>
-        </div>
+        <!-- Other services can be added here -->
       </div>
     </div>
   </div>
 
-  <!--//section-->
-
   <!--section blog posts -->
   <div class="section bg-grey">
     <div class="container">
+      <div class="text-center">
+        <h2 class="theme-color">{{ 'BREADCRUMBS.BLOGS' | translate }}</h2>
+        <div class="h-decor"></div>
+      </div>
       <div class="row">
-        <div class="col-md-6 col-lg-4">
-          <div class="blog-post blog-post-style4">
-            <div class="post-image">
-              <a href="blog"
-                ><img src="assets/images/blog/blog11.jpg" alt=""
-              /></a>
+        <div
+          class="gallery-item col-lg-4 col-md-6 col-sm-12 mb-4"
+          *ngFor="let service of services"
+        >
+          <div class="doctor-box text-center">
+            <div class="doctor-box-photo">
+              <a [routerLink]="['/blogs', service.id]">
+                <img [src]="service.image" class="img-fluid" alt="" />
+              </a>
             </div>
-            <div class="blog-post-info">
-              <div class="post-date-simple mt-5 mb-2">
-                Choosing the Right Surgeon:
-              </div>
-              <h2 class="post-title">
-                <a href="blog">Ensure the surgeon is board-certified.</a>
-              </h2>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-4">
-          <div class="blog-post blog-post-style4">
-            <div class="post-image">
-              <a href="blog"
-                ><img src="assets/images/blog/blog1.jpg" alt=""
-              /></a>
-            </div>
-            <div class="blog-post-info">
-              <div class="post-date-simple mt-5">
-                Pre- and Post-Surgery Tips:
-              </div>
-              <h2 class="post-title">
-                <a href="blog"
-                  >Follow all pre-surgery instructions from your doctor.</a
-                >
-              </h2>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="blog-post blog-post-style4">
-            <div class="post-image">
-              <a href="blog"
-                ><img src="assets/images/blog/blog3.jpg" alt=""
-              /></a>
-            </div>
-            <div class="blog-post-info">
-              <div class="post-date-simple mt-5">
-                Difference Between Cosmetic and Reconstructive Surgery:
-              </div>
-              <h2 class="post-title">
-                <a href="blog"
-                  >Cosmetic Surgery: Aims to enhance appearance, often elective,
-                  such as rhinoplasty or facelifts.</a
-                >
-              </h2>
+            <h5 class="doctor-box-name">
+              <a [routerLink]="['/blogs', service.id]">{{ service.name }}</a>
+            </h5>
+            <div class="doctor-box-text">
+              <p>{{ service.shortDescription }}</p>
             </div>
           </div>
         </div>
@@ -213,78 +258,6 @@
     </div>
   </div>
   <!--//section -->
-  <!--Most Popular Procedures-->
-  <div class="section">
-    <div class="text-center">
-      <h2>
-        Most Popular <br class="d-sm-none" /><span class="theme-color"
-          >Procedures</span
-        >
-      </h2>
-      <div class="h-decor"></div>
-    </div>
-    <div class="container-fluid mt-5">
-      <div class="row no-gutters">
-        <div class="col-xl-6 bg-grey">
-          <div class="max-670 mx-lg-auto px-15">
-            <div class="row">
-              <div class="col-sm-7 col-lg-8">
-                <ul class="fs-4 mt-50">
-                  <li>
-                    <i class="fa-solid fa-chevron-right theme-color"></i>
-                    Breast Augmentation
-                  </li>
-
-                  <li>
-                    <i class="fa-solid fa-chevron-right theme-color"></i> Breast
-                    Lift
-                  </li>
-                  <li>
-                    <i class="fa-regular fa-circle-dot theme-color"></i
-                    >Liposuction
-                  </li>
-                  <li>
-                    <i class="fa-solid fa-check theme-color"></i>Mommy Makeover
-                  </li>
-                  <li>
-                    <i class="fa-solid fa-check theme-color"></i>Tummy Tuck
-                  </li>
-                  <li>
-                    <i class="fa-solid fa-check theme-color"></i>Eyelid surgery
-                  </li>
-                  <li>
-                    <i class="fa-solid fa-xmark theme-color"></i> Facelift
-                  </li>
-                  <li>
-                    <i class="fa-regular fa-circle-dot theme-color"></i>Neck
-                    Lift
-                  </li>
-                  <li>
-                    <i class="fa-solid fa-check theme-color"></i>Rhinoplasty
-                  </li>
-                  <li>
-                    <i class="fa-solid fa-check theme-color"></i>BOTOX® Cosmetic
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-xl-6 banner-left bg-full"
-          style="
-            background-image: url(assets/images/img.png);
-            height: 400px;
-            width: 400px;
-            margin-left: 200px;
-            border-radius: 20px;
-          "
-        ></div>
-      </div>
-    </div>
-  </div>
-
-  <!--//section prices-->
   <!--section call us-->
   <div class="section mt-5">
     <div class="container">
