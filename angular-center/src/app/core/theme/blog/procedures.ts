@@ -3,7 +3,7 @@ export const procedures = [
   {
     id: 'facial-fat-injections',
     name: 'Facial Fat Injections',
-    image: 'assets/images/blog/b4.jpeg',
+    image: 'assets/images/blog/98.jpg',
     longDescription:
       'Facial fat injections, also known as fat grafting, are a cosmetic procedure that uses the patient’s own fat to restore volume and rejuvenate the face, providing natural-looking and long-lasting results.',
     shortDescription:
@@ -403,7 +403,7 @@ export const procedures = [
   {
     id: 'rhinoplasty',
     name: 'Rhinoplasty',
-    image: 'assets/images/blog/m1.jpg', // Update with the correct image path
+    image: 'assets/images/blog/b4.jpeg', // Update with the correct image path
     longDescription:
       'Rhinoplasty, commonly known as nose reshaping, is a surgical procedure that enhances the appearance and function of the nose, addressing issues such as size, shape, and structural defects.',
     shortDescription:
@@ -674,43 +674,7 @@ export const procedures = [
       },
     ],
   },
-  {
-    id: 'rhinoplasty',
-    name: ' Rhinoplasty',
-    image: 'assets/images/blog/m1.jpg',
-    longDescription:
-      'Rhinoplasty is a surgical procedure to alter the shape, size, or proportions of the nose. It can be done for cosmetic reasons or to correct functional issues like breathing problems.',
-    shortDescription:
-      'Rhinoplasty is a surgical procedure to alter the shape, size, or proportions of the nose',
-    descriptions: [
-      {
-        title: 'Open Rhinoplasty',
-        text: 'Involves making an incision at the base of the nose, allowing for more comprehensive reshaping. This technique is preferred for significant changes.',
-      },
-      {
-        title: 'Closed Rhinoplasty',
-        text: 'All incisions are made inside the nostrils, resulting in no visible scars. It is used for minor changes.',
-      },
-      {
-        title: 'Non-Surgical Rhinoplasty',
-        text: 'Involves injecting dermal fillers to temporarily improve the shape of the nose without surgery.',
-      },
 
-      {
-        title: 'Recovery',
-        text: 'Swelling and bruising around the eyes and nose are common for 1–2 weeks., Full recovery can take up to a year, although most swelling subsides within a few months., You may need to wear a nasal splint for the first week after surgery.',
-      },
-
-      {
-        title: 'Benefits',
-        text: 'Improves facial symmetry and balance ,Enhances breathing function (if done for medical reasons), Boosts confidence with a more harmonious facial appearance',
-      },
-      {
-        title: 'Risks',
-        text: 'Difficulty breathing through the nose post-surgery, Nosebleeds, Infection or adverse reaction to anesthesia, Permanent numbness in the nose, Need for revision surgery',
-      },
-    ],
-  },
   {
     id: 'chin-implant',
     name: ' Chin Implant ',
@@ -962,6 +926,45 @@ export const procedures = [
       {
         title: 'Risks',
         text: 'Infection or implant-related complications, Scarring or irregularities in muscle definition, Prolonged swelling or bruising, Asymmetry or need for revision surgery',
+      },
+    ],
+  },
+  {
+    id: 'rhinoplasty-for-men',
+    name: 'Rhinoplasty For Men',
+    image: 'assets/images/blog/m1.jpg', // Update with the correct image path
+    longDescription:
+      'Rhinoplasty, commonly known as nose reshaping, is a surgical procedure that enhances the appearance and function of the nose, addressing issues such as size, shape, and structural defects.',
+    shortDescription:
+      'Rhinoplasty, also known as nose reshaping, is a surgical procedure to enhance the appearance or function of the nose.',
+    descriptions: [
+      {
+        title: 'Overview',
+        text: 'Rhinoplasty is a surgical procedure that reshapes the nose to improve its appearance and/or function. It can correct structural defects, enhance facial harmony, and may also address breathing issues related to the nasal structure.',
+      },
+      {
+        title: 'Procedure',
+        text: 'The procedure can be performed using open or closed techniques. In an open rhinoplasty, an incision is made on the columella (the skin between the nostrils), while closed rhinoplasty involves incisions inside the nostrils. The surgeon then modifies the bone and cartilage to achieve the desired shape.',
+      },
+      {
+        title: 'Recovery',
+        text: 'Recovery from rhinoplasty typically involves swelling and bruising around the eyes and nose. Patients are usually advised to rest and avoid strenuous activities for several weeks. Most people can return to normal activities within a week, but full results may take several months to appear.',
+      },
+      {
+        title: 'Benefits',
+        text: 'The benefits of rhinoplasty include improved nose shape and proportion, enhanced facial harmony, and, in some cases, improved breathing function. Patients often report increased self-confidence following the procedure.',
+      },
+      {
+        title: 'Risks and Considerations',
+        text: "As with any surgical procedure, rhinoplasty carries risks, including infection, bleeding, and complications related to anesthesia. It's essential to choose a qualified surgeon and follow post-operative care instructions to minimize risks.",
+      },
+      {
+        title: 'Ideal Candidates',
+        text: 'Ideal candidates for rhinoplasty are individuals dissatisfied with the appearance of their nose or those experiencing breathing difficulties due to structural issues. Candidates should be in good overall health and have realistic expectations for the outcome.',
+      },
+      {
+        title: 'Common Treatment Areas',
+        text: 'The primary treatment area is the nose, focusing on reshaping and refining its structure to achieve a more balanced and aesthetically pleasing appearance.',
       },
     ],
   },
