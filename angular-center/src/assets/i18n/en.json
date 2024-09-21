@@ -847,5 +847,28 @@
       }
     },
     "OURBLOG": "Our Blogs"
+  },
+  "ABOUT": {
+    "Specializations": "Specializations",
+    "Cosmetic": "Cosmetic Surgeon",
+    "Facelift": "Facelift Surgeries",
+    "Rhinoplasty": "Rhinoplasty (Nose surgeries)",
+    "Body": "Body Contouring Surgeries",
+    "Education": "Education",
+    "Experience": "Experience",
+    "Consultant": "Consultant Cosmetic Surgeon at Christ Hospital, USA",
+    "Senior": "Senior Registrar at Mica Hospital, Seth AS Medical, USA",
+    "CosmeticSurgeon": "Cosmetic Surgeon at WELLS University, USA",
+    "Recognitions": "Recognitions",
+    "Expert": "Expert in performing endoscope-assisted cosmetic surgeries",
+    "Adept": "Adept in treating deformities caused by accidents",
+    "Innovative": "Innovative approach in cosmetic procedures for facial and limb enhancement",
+    "Doctor": "Dr. [Name], MBBS, MS – General Surgery, Cosmetic Surgery, is a cosmetic surgeon with over 20 years of experience, including 6 years as a specialist in the field. He has extensive expertise in performing advanced cosmetic surgeries, delivering high-quality services focused on enhancing patients' aesthetic appearance. Dr. [Name] combines advanced surgical skills with a deep understanding of patient needs, making him proficient in handling complex cases with precision and care. He adopts a patient-centered approach, always striving to achieve the best cosmetic results that significantly improve both the appearance and the quality of life of his patients.",
+    "Question1": " How do I get a price estimate for a treatment/procedure?",
+    "Question2": "Is my information safe after submitting to this site ?",
+    "Question3": "Where do I call to find out the condition of a patient ?",
+    "Question4": "Where do I call for information on health screenings?",
+    "Question5": "Are children allowed to visit patients at Hospital?",
+    "Question6": " What are the formalities to get my investigation reports?"
   }
 }
